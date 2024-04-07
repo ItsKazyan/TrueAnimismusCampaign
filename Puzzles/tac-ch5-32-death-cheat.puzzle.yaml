@@ -1,0 +1,70 @@
+Name: 33. DEATH CHEAT
+ID: tac-ch5-32-death-cheat
+Author: ''
+Inputs:
+- Molecule:
+    Atoms:
+    - AtomType: True Vitae:truevitae
+      Position:
+        Pos: -1,0
+    - AtomType: salt
+      Position:
+        Pos: 0,0
+    - AtomType: True Mors:truemors
+      Position:
+        Pos: 1,0
+    Bonds:
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,0
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    Name: Perfect Animismus
+  Amount: -1
+Outputs:
+- Molecule:
+    Atoms:
+    - AtomType: True Vitae:truevitae
+      Position:
+        Pos: -1,0
+    - AtomType: True Vitae:truevitae
+      Position:
+        Pos: 1,0
+    - AtomType: salt
+      Position:
+        Pos: 0,0
+    Bonds:
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - triplex_0
+      - triplex_1
+      - triplex_2
+    - A:
+        Pos: -1,0
+      B:
+        Pos: 0,0
+      BondTypes:
+      - triplex_0
+      - triplex_1
+      - triplex_2
+    Name: Death Cheat
+  Amount: -1
+PermissionFlags: PrismaBonder, Duplication, CoreTools, BaronWheel
+CustomPermissions:
+- TrueAnimismus:disproportion
+- TrueAnimismus:herriman
+- TrueAnimismus:infusion
+- TrueAnimismus:lefthand
+PartQuotas: {}
+Highlights: []
+ProductionInfo: 

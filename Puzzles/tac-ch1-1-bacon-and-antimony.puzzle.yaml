@@ -1,0 +1,44 @@
+Name: 1. BACON AND ANTIMONY
+ID: tac-ch1-1-bacon-and-antimony
+Author: ''
+Inputs:
+- Molecule:
+    Atoms:
+    - AtomType: lead
+      Position:
+        Pos: 0,0
+    - AtomType: mors
+      Position:
+        Pos: 1,0
+    Bonds:
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    Name: Toxic Lead
+  Amount: -1
+Outputs:
+- Molecule:
+    Atoms:
+    - AtomType: tin
+      Position:
+        Pos: 0,0
+    - AtomType: mors
+      Position:
+        Pos: 1,0
+    Bonds:
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    Name: Antimony
+  Amount: -1
+PermissionFlags: AllMechanisms, Bonder, Unbonder, SpeedBonder, Purification, Disposal, BasicSymbols, ResetSymbol, RepeatSymbol, PivotSymbols
+CustomPermissions: []
+PartQuotas: {}
+Highlights: []
+ProductionInfo: 

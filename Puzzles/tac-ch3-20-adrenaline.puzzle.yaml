@@ -1,0 +1,114 @@
+Name: 21. ADRENALINE
+Author: ''
+ID: tac-ch3-20-adrenaline
+Inputs: 
+- Molecule:
+    Atoms:
+    - AtomType: fire
+      Position:
+        Pos: 1,0
+    - AtomType: fire
+      Position:
+        Pos: 0,0
+    - AtomType: fire
+      Position:
+        Pos: 0,-1
+    - AtomType: fire
+      Position:
+        Pos: -1,1
+    Bonds:
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - triplex_0
+      - triplex_1
+      - triplex_2
+    - A:
+        Pos: 0,-1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - triplex_0
+      - triplex_1
+      - triplex_2
+    - A:
+        Pos: -1,1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - triplex_0
+      - triplex_1
+      - triplex_2
+    Name: Activated Victrite
+  Amount: -1
+- Molecule:
+    Atoms:
+    - AtomType: True Vitae:truevitae
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: True Vitae
+  Amount: -1
+Outputs:
+- Molecule:
+    Atoms:
+    - AtomType: fire
+      Position:
+        Pos: 0,0
+    - AtomType: vitae
+      Position:
+        Pos: 1,0
+    - AtomType: vitae
+      Position:
+        Pos: -1,1
+    - AtomType: vitae
+      Position:
+        Pos: 0,-1
+    Bonds:
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - triplex_0
+      - triplex_1
+      - triplex_2
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 0,-1
+      BondTypes:
+      - triplex_0
+      - triplex_1
+      - triplex_2
+    - A:
+        Pos: -1,1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - triplex_0
+      - triplex_1
+      - triplex_2
+    Name: Adrenaline
+  Amount: -1
+- Molecule:
+    Atoms:
+    - AtomType: salt
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: Elemental Salt
+  Amount: -1
+PermissionFlags: AllMechanisms, Calcification, BasicSymbols, ResetSymbol, RepeatSymbol, PivotSymbols
+CustomPermissions:
+- TrueAnimismus:infusion
+PartQuotas: {}
+Highlights: []
+ProductionInfo: 
+  Chambers:
+  - ChamberType: Large
+    Position:
+      Pos: 0,0
+  Isolation: false

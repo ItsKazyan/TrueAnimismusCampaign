@@ -1,0 +1,151 @@
+Name: 2. HEART MEDICINE
+ID: tac-ch1-2-heart-medicine
+Author: ''
+Inputs:
+- Molecule:
+    Atoms:
+    - AtomType: salt
+      Position:
+        Pos: 0,0
+    - AtomType: vitae
+      Position:
+        Pos: -1,0
+    - AtomType: vitae
+      Position:
+        Pos: 0,-1
+    - AtomType: vitae
+      Position:
+        Pos: 1,-1
+    - AtomType: earth
+      Position:
+        Pos: 0,1
+    Bonds:
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 0,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,-1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,0
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    Name: Wrinkle Cream
+  Amount: -1
+- Molecule:
+    Atoms:
+    - AtomType: fire
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: Elemental Fire
+  Amount: -1
+Outputs:
+- Molecule:
+    Atoms:
+    - AtomType: fire
+      Position:
+        Pos: 0,0
+    - AtomType: earth
+      Position:
+        Pos: 0,1
+    - AtomType: salt
+      Position:
+        Pos: 1,-1
+    - AtomType: salt
+      Position:
+        Pos: -1,0
+    - AtomType: vitae
+      Position:
+        Pos: 2,-1
+    - AtomType: vitae
+      Position:
+        Pos: 2,-2
+    - AtomType: vitae
+      Position:
+        Pos: 1,-2
+    - AtomType: vitae
+      Position:
+        Pos: -1,-1
+    - AtomType: vitae
+      Position:
+        Pos: -2,0
+    - AtomType: vitae
+      Position:
+        Pos: -2,1
+    Bonds:
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 0,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -2,1
+      B:
+        Pos: -1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -2,0
+      B:
+        Pos: -1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,-1
+      B:
+        Pos: -1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,0
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,-1
+      B:
+        Pos: 2,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,-1
+      B:
+        Pos: 2,-2
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,-2
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - standard
+    Name: Heartbeat Stabilizer
+  Amount: -1
+PermissionFlags: Duplication, CoreTools
+CustomPermissions: []
+PartQuotas: {}
+Highlights: []
+ProductionInfo: 

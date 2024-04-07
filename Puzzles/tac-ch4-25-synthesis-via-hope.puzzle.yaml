@@ -1,0 +1,208 @@
+Name: 26. SYNTHESIS VIA HOPE
+ID: tac-ch4-25-synthesis-via-hope
+Author: ''
+Inputs:
+- Molecule:
+    Atoms:
+    - AtomType: salt
+      Position:
+        Pos: -2,1
+    - AtomType: earth
+      Position:
+        Pos: -1,0
+    - AtomType: earth
+      Position:
+        Pos: 0,0
+    - AtomType: salt
+      Position:
+        Pos: 1,-1
+    - AtomType: iron
+      Position:
+        Pos: 1,-2
+    - AtomType: vitae
+      Position:
+        Pos: 1,0
+    - AtomType: air
+      Position:
+        Pos: -2,2
+    - AtomType: earth
+      Position:
+        Pos: -1,2
+    - AtomType: earth
+      Position:
+        Pos: -3,1
+    - AtomType: earth
+      Position:
+        Pos: -3,3
+    - AtomType: vitae
+      Position:
+        Pos: 0,-2
+    Bonds:
+    - A:
+        Pos: 1,-1
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,-2
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,0
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -2,1
+      B:
+        Pos: -1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -2,1
+      B:
+        Pos: -2,2
+      BondTypes:
+      - standard
+    - A:
+        Pos: -2,2
+      B:
+        Pos: -1,2
+      BondTypes:
+      - standard
+    - A:
+        Pos: -3,1
+      B:
+        Pos: -2,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -3,3
+      B:
+        Pos: -2,2
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,-2
+      B:
+        Pos: 1,-2
+      BondTypes:
+      - standard
+    Name: Door Splinters
+  AmountOverride: 0
+Outputs:
+- Molecule:
+    Atoms:
+    - AtomType: fire
+      Position:
+        Pos: 0,0
+    - AtomType: earth
+      Position:
+        Pos: 0,1
+    - AtomType: salt
+      Position:
+        Pos: -1,0
+    - AtomType: salt
+      Position:
+        Pos: 1,-1
+    - AtomType: vitae
+      Position:
+        Pos: 2,-1
+    - AtomType: vitae
+      Position:
+        Pos: 2,-2
+    - AtomType: vitae
+      Position:
+        Pos: 1,-2
+    - AtomType: vitae
+      Position:
+        Pos: -1,-1
+    - AtomType: vitae
+      Position:
+        Pos: -2,0
+    - AtomType: vitae
+      Position:
+        Pos: -2,1
+    Bonds:
+    - A:
+        Pos: -2,1
+      B:
+        Pos: -1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -2,0
+      B:
+        Pos: -1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,-1
+      B:
+        Pos: -1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,0
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 0,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,-1
+      B:
+        Pos: 2,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,-1
+      B:
+        Pos: 2,-2
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,-2
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - standard
+    Name: Heartbeat Stabilizer
+  AmountOverride: 0
+- Molecule:
+    Atoms:
+    - AtomType: iron
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: Elemental Iron
+  AmountOverride: 0
+OutputMultiplier: 1
+PermissionFlags: Duplication, LifeAndDeath, CoreTools, BaronWheel
+CustomPermissions:
+- TrueAnimismus:lefthand
+- TrueAnimismus:disproportion
+- TrueAnimismus:infusion
+Highlights: []
+ProductionInfo: 

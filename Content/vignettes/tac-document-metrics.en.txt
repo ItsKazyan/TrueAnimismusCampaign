@@ -1,0 +1,57 @@
+﻿[DO NOT PARSE]
+
+The recommended metric for each level in this campaign is "reaches the victory screen".
+
+A second set of recommended metrics is available, however, for those that cannot feel comfortable advancing until they have mastered each level outright. The metric is denoted with one to two letters on the puzzle's icon.
+
+G - Cost
+C - Cycles
+A - Area
+Σ - Sum (C+G+A, or C+G+I in a production cabinet)
+R - Rate
+TI - Trackless Instructions 
+I - Instructions 
+H - Height
+B - Bestagon
+AA - Area Minus Arms
+
+Recommended metrics:
+
+1 C
+2 H
+3 R
+4 G
+5 TI
+6 A
+7 Sum
+8 C
+9 B
+10 R
+11 C
+12 G
+13 A
+14 Sum
+15 A
+16 R
+17 Amarms
+18 I
+19 C
+20 G
+21 PSum
+22 H
+23 TI
+24 Sum
+25 C
+26 --
+27 B
+28 G
+29 A
+30 TI
+31 Sum
+32 C
+33 Sum
+34 --
+35 --
+36 Fun
+
+

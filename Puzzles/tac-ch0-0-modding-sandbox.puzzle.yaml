@@ -1,0 +1,101 @@
+Name: TRUE ANIMISMUS SANDBOX
+ID: c687047506589654
+Author: ''
+Inputs:
+- Molecule:
+    Atoms:
+    - AtomType: salt
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: ''
+  Amount: -1
+- Molecule:
+    Atoms:
+    - AtomType: mors
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: ''
+  Amount: -1
+- Molecule:
+    Atoms:
+    - AtomType: vitae
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: ''
+  Amount: -1
+- Molecule:
+    Atoms:
+    - AtomType: Red Vitae:redvitae
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: ''
+  Amount: -1
+Outputs:
+- Molecule:
+    Atoms:
+    - AtomType: Grey Mors:greymors
+      Position:
+        Pos: 0,0
+    - AtomType: True Vitae:truevitae
+      Position:
+        Pos: -1,1
+    - AtomType: True Vitae:truevitae
+      Position:
+        Pos: 0,-1
+    - AtomType: True Vitae:truevitae
+      Position:
+        Pos: 1,0
+    Bonds:
+    - A:
+        Pos: -1,1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,-1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    Name: ''
+  Amount: -1
+- Molecule:
+    Atoms:
+    - AtomType: salt
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: ''
+  Amount: -1
+- Molecule:
+    Atoms:
+    - AtomType: Red Vitae:redvitae
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: ''
+  Amount: -1
+PermissionFlags: Projection, Purification, LifeAndDeath, Disposal, Quintessence, CoreTools, BaronWheel
+CustomPermissions:
+- TrueAnimismus:disproportion
+- TrueAnimismus:lefthand
+- TrueAnimismus:infusion
+- TrueAnimismus:herriman
+- ReductiveMetallurgy:rejection
+- ReductiveMetallurgy:deposition
+- ReductiveMetallurgy:proliferation
+- ReductiveMetallurgy:ravari
+PartQuotas: {}
+Highlights: []
+ProductionInfo: 

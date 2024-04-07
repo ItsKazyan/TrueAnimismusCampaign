@@ -1,0 +1,127 @@
+Name: 25. BRILLIANCE UNMATCHED
+ID: tac-ch4-24-brilliance-unmatched
+Author: ''
+Inputs:
+- Molecule:
+    Atoms:
+    - AtomType: Grey Mors:greymors
+      Position:
+        Pos: 0,-1
+    - AtomType: Grey Mors:greymors
+      Position:
+        Pos: -1,0
+    - AtomType: Grey Mors:greymors
+      Position:
+        Pos: -1,1
+    - AtomType: Grey Mors:greymors
+      Position:
+        Pos: 0,1
+    - AtomType: Grey Mors:greymors
+      Position:
+        Pos: 1,0
+    - AtomType: Grey Mors:greymors
+      Position:
+        Pos: 1,-1
+    - AtomType: water
+      Position:
+        Pos: 0,0
+    Bonds:
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,-1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,0
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 0,1
+      BondTypes:
+      - standard
+    Name: Tea Toxin
+  Amount: -1
+Outputs:
+- Molecule:
+    Atoms:
+    - AtomType: salt
+      Position:
+        Pos: 0,0
+    - AtomType: salt
+      Position:
+        Pos: 1,0
+    - AtomType: repeat
+      Position:
+        Pos: 2,0
+    Bonds:
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,0
+      B:
+        Pos: 2,0
+      BondTypes:
+      - standard
+    Name: Sweeper Rod
+  Amount: -1
+- Molecule:
+    Atoms:
+    - AtomType: Grey Mors:greymors
+      Position:
+        Pos: 0,0
+    - AtomType: Grey Mors:greymors
+      Position:
+        Pos: 1,0
+    - AtomType: repeat
+      Position:
+        Pos: 2,0
+    Bonds:
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,0
+      B:
+        Pos: 2,0
+      BondTypes:
+      - standard
+    Name: Minor Complication
+  Amount: -1
+PermissionFlags: Disposal, CoreTools
+CustomPermissions:
+- TrueAnimismus:infusion
+- TrueAnimismus:lefthand
+- TrueAnimismus:disproportion
+PartQuotas: {}
+Highlights: []
+ProductionInfo: 

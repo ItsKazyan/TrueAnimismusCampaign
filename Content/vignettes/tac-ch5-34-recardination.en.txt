@@ -1,0 +1,39 @@
+Nadine (Left): Alchemist Terrell, if you're not prepared to take your stand, then I'm afraid you'll have to forfeit your timeslot.
+Oswald (Left): I...please, a few more minutes; the machine simply isn't cooperating...
+Oswald (Left): The solution to decardination is in here somewhere, I'm sure of it! This is my final stepping stone!
+Nadine (Left): You must either present now or not present at all. Partial results are better than no results.
+Oswald (Left): Bah. I suppose--
+Eleanor (Right): Hello.
+Oswald (Left): You! Where--where did you come from? How are you even here?
+Eleanor (Right): Not important.
+Oswald (Left): Get off the stage!
+Eleanor (Right): No. I'm presenting now.
+Nadine (Left): Oh my, taking an Al. D.'s timeslot? This had better be something worthwhile.
+Oswald (Left): You will not ruin my _opus magnum_!
+Eleanor (Right): I will do precisely that.
+Eleanor (Right): I had no chances to prepare a presentation, due to being sabotaged by Alchemist Terrell, so I'll be brief. There is a list of contributors to get through.
+Eleanor (Right): I present to you the newly-discovered higher grades of vitae and mors, three new glyphs, and a variant of Van Berlo's Wheel, which will usher in an unprecedented age of health and vitality.
+Eleanor (Right): This will come at no risk of Decardination, the slow depletion of cardinals by permanent entrapment in animsmus, because I've solved that too.
+Nadine (Left): A bold claim. Could you grant us a demonstration?
+
+-----------
+
+Eleanor (Right): _Trivial._
+Nadine (Left): ...
+Oswald (Left): ...
+Eleanor (Right): How long did you think you could do this to me for, Oswald?
+Oswald (Left): That's Alchemist Terrell, to you.
+Eleanor (Right): No. You are not an alchemist. I'd rather call you a plaigarist.
+Eleanor (Right): Symposium attendees--recognize these notes from anywhere? Catch!
+Oswald (Left): NO! NO! GIVE THOSE BACK!
+Oswald (Right): Eleanor, you will not get away with this.
+Eleanor (Left): I'm not? What are you going to do about it, then?
+Oswald (Right): My mercenaries will hunt you down. After they're done killing Harriet, of course.
+Oswald (Right): ...
+Oswald (Right): Why are you so unfazed?
+Eleanor (Left): It's just amazing how they're doing the worst possible thing for their continued safety.
+
+
+
+
+

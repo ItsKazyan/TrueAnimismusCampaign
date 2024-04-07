@@ -1,0 +1,277 @@
+Name: TrueAnimismusCampaign
+Title: "Decardination"
+Chapters:
+- Title: Prologue
+  Subtitle: A Glyph Frowned Upon
+  Place: "Imperial University, 8 years prior"
+  Background: backgrounds/background_ch0
+  Entries:
+  - ID: tac-document-intro
+    Title: "Letter from the Fourth Wall"
+    Puzzle: empty
+    Requires: ""
+  # - ID: tac-document-metrics
+  #   Title: "Recommended Metrics"
+  #   Puzzle: empty
+  #   Requires: ""
+  - ID: tac-cutscene-ch0-spill
+    Title: "Secrets Spilled"
+    Puzzle: empty
+    Requires: ""
+- Title: Chapter I
+  Subtitle: The Understudy
+  Place: "Research Wing: The Hall of Fire"
+  Background: backgrounds/background_ch1
+  Entries:
+  - ID: tac-ch1-1-bacon-and-antimony
+    Title: Bacon and Antimony
+    Puzzle: tac-ch1-1-bacon-and-antimony
+    Requires: ""
+  - ID: tac-ch1-2-heart-medicine
+    Title: Heart Medicine
+    Puzzle: tac-ch1-2-heart-medicine
+    Requires: ""
+  - ID: tac-cutscene-ch1-decardination
+    Title: "Decardination"
+    Puzzle: empty
+    Requires: 2
+  - ID: tac-ch1-3-coagulation-compounds
+    Title: Coagulation Compounds
+    Puzzle: tac-ch1-3-coagulation-compounds
+    Requires: "tac-cutscene-ch1-decardination"
+  - ID: tac-ch1-4-chelating-steam
+    Title: Chelating Steam
+    Puzzle: tac-ch1-4-chelating-steam
+    Requires: "tac-ch1-3-coagulation-compounds"
+  - ID: tac-ch1-5-malleable-crystal
+    Title: Malleable Crystal
+    Puzzle: tac-ch1-5-malleable-crystal
+    Requires: "tac-ch1-3-coagulation-compounds"
+  - ID: tac-ch1-6-milk-of-mors
+    Title: Milk of Mors
+    Puzzle: tac-ch1-6-milk-of-mors
+    Requires: 5
+  - ID: "tac-document-dispro-workprint"
+    Title: "1+1 = 0+2"
+    Puzzle: empty
+    Requires: "tac-ch1-6-milk-of-mors"
+  - ID: tac-ch1-7-disproportionated-salt
+    Title: Disproportionated Salt
+    Puzzle: tac-ch1-7-disproportionated-salt
+    Requires: "tac-ch1-6-milk-of-mors"
+- Title: Chapter II
+  Subtitle: The Frontier of Alchemy
+  Place: "Faculty Gatherings: The Courtyard of Earth"
+  Background: backgrounds/background_ch2
+  Entries:
+  - ID: tac-ch2-8-novel-primes
+    Title: Novel Primes
+    Puzzle: tac-ch2-8-novel-primes
+    Requires: ""
+  - ID: tac-cutscene-ch2-taking-credit
+    Title: Taking Credit
+    Puzzle: empty
+    Requires: "tac-ch2-8-novel-primes"
+  - ID: tac-ch2-9-floral-arrangement
+    Title: Floral Arrangement
+    Puzzle: tac-ch2-9-floral-arrangement
+    Requires: "tac-ch2-8-novel-primes"
+  - ID: tac-cutscene-ch2-i-had-a-hunch
+    Title: I Had A Hunch
+    Puzzle: empty
+    Requires: "tac-ch2-9-floral-arrangement"
+  - ID: tac-ch2-10-eyedrops-of-vision
+    Title: Eyedrops of Vision
+    Puzzle: tac-ch2-10-eyedrops-of-vision
+    Requires: "tac-cutscene-ch2-i-had-a-hunch"
+  - ID: tac-ch2-11-proof-of-incompleteness
+    Title: Proof of Incompleteness
+    Puzzle: tac-ch2-11-proof-of-incompleteness
+    Requires: "tac-cutscene-ch2-i-had-a-hunch"
+  - Type: solitaire
+    Requires: "tac-ch2-10-eyedrops-of-vision"
+    Icon: textures/puzzle_select/icon_tac_solitaire
+    IconSmall: textures/puzzle_select/icon_tac_solitaire_small
+    ID: tac-sigmars-garden
+    Title: Sigmar's Garden
+    Puzzle: empty
+  - ID: "campus-map-in-postcard-harriet's-path"
+    Title: "Campus Map"
+    Puzzle: empty
+    Requires: "tac-ch2-10-eyedrops-of-vision"
+  - ID: tac-ch2-12-vanishing-cord
+    Title: Vanishing Cord
+    Puzzle: tac-ch2-12-vanishing-cord
+    Requires: 4
+  - ID: tac-ch2-13-all-purpose-sterilizer
+    Title: All-Purpose Sterilizer
+    Puzzle: tac-ch2-13-all-purpose-sterilizer
+    Requires: 4
+  - ID: tac-document-process-of-elimination
+    Title: "Process of Elimination"
+    Puzzle: empty
+    Requires: 6
+  - ID: tac-ch2-14-grey-mirror
+    Title: Grey Mirror
+    Puzzle: tac-ch2-14-grey-mirror
+    Requires: 6
+- Title: Chapter III
+  Subtitle: Extracurriculars
+  Place: "Nadine's Crown: The Tower of Air"
+  Background: backgrounds/background_ch3
+  Entries:
+  - ID: tac-cutscene-ch3-the-fighting-ring
+    Title: The Fighting Ring
+    Puzzle: empty
+    Requires: ""
+  - Type: solitaire
+    Requires: ""
+    Icon: textures/puzzle_select/icon_tac_solitaire
+    IconSmall: textures/puzzle_select/icon_tac_solitaire_small
+    ID: tac-sigmars-garden
+    Title: Sigmar's Garden
+    Puzzle: empty
+  - ID: tac-ch3-15-tooth-serum
+    Title: Tooth Serum
+    Puzzle: tac-ch3-15-tooth-serum
+    Requires: "tac-cutscene-ch3-the-fighting-ring"
+  - ID: tac-ch3-16-tourniquet-thread
+    Title: Tourniquet Thread
+    Puzzle: tac-ch3-16-tourniquet-thread
+    Requires: "tac-ch3-15-tooth-serum"
+  - ID: tac-ch3-17-rotgut
+    Title: Rotgut
+    Puzzle: tac-ch3-17-rotgut
+    Requires: "tac-ch3-16-tourniquet-thread"
+  - ID: tac-cutscene-ch3-banned
+    Title: Banned
+    Puzzle: empty
+    Requires: "tac-ch3-17-rotgut"
+  - ID: tac-ch3-18-hangunder-cure
+    Title: Hangunder Cure
+    Puzzle: tac-ch3-18-hangunder-cure
+    Requires: "tac-cutscene-ch3-banned"
+  - ID: tac-ch3-19-deep-etchant
+    Title: Deep Etchant
+    Puzzle: tac-ch3-19-deep-etchant
+    Requires: "tac-cutscene-ch3-banned"
+  - ID: tac-ch3-19b-ultrapure-tin
+    Title: Tin Ultrarefinement
+    Puzzle: tac-ch3-19b-ultrapure-tin
+    Requires: "tac-cutscene-ch3-banned"
+  - ID: tac-ch3-20-adrenaline
+    Title: Adrenaline
+    Puzzle: tac-ch3-20-adrenaline
+    Requires: 6
+- Title: Chapter IV
+  Subtitle: Lost Ground
+  Place: "Back Offices: Water's Row"
+  Background: backgrounds/background_ch4
+  Entries:
+  - ID: tac-ch4-21-iodized-salt
+    Title: Iodized Salt
+    Puzzle: tac-ch4-21-iodized-salt
+    Requires: ""
+  - ID: tac-cutscene-ch4-brewing-schemes
+    Title: Brewing Schemes
+    Puzzle: empty
+    Requires: "tac-ch4-21-iodized-salt"
+  - ID: tac-ch4-22-oswalds-genius
+    Title: Oswald's Genius
+    Puzzle: tac-ch4-22-oswalds-genius
+    Requires: "tac-cutscene-ch4-brewing-schemes"
+  - ID: tac-cutscene-ch4-blackmail
+    Title: Blackmail
+    Puzzle: empty
+    Requires: "tac-ch4-22-oswalds-genius"
+  - ID: tac-ch4-23-miasmic-warhead
+    Title: Miasmic Warhead
+    Puzzle: tac-ch4-23-miasmic-warhead
+    Requires: "tac-cutscene-ch4-blackmail"
+  - ID: tac-ch4-24-brilliance-unmatched
+    Title: Brilliance Unmatched
+    Puzzle: tac-ch4-24-brilliance-unmatched
+    Requires: "tac-cutscene-ch4-blackmail"
+  - ID: "campus-map-in-postcard-harriet's-second-path"
+    Title: "The Free Radical"
+    Puzzle: empty
+    Requires: 4
+  - ID: tac-ch4-25-synthesis-via-hope
+    Title: Synthesis Via Hope
+    Puzzle: tac-ch4-25-synthesis-via-hope
+    Requires: "campus-map-in-postcard-harriet's-second-path"
+    Icon: textures/puzzle_select/icon_puzzle_red
+    IconSmall: textures/puzzle_select/icon_puzzle_red_small
+  - ID: tac-ch4-26-strength-potion
+    Title: Strength Potion
+    Puzzle: tac-ch4-26-strength-potion
+    Requires: "tac-ch4-25-synthesis-via-hope"
+  - ID: tac-cutscene-ch4-wilting
+    Title: Wilting
+    Puzzle: empty
+    Requires: "tac-ch4-26-strength-potion"
+  - ID: tac-ch4-27-wheel-refurbishing
+    Title: Wheel Refurbishing
+    Puzzle: tac-ch4-27-wheel-refurbishing
+    Requires: "tac-cutscene-ch4-wilting"
+- Title: Chapter V
+  Subtitle: A True Genius
+  Place: "The Alchemical Symposium: The Chapel of Salt"
+  Background: backgrounds/background_ch5
+  Entries:
+  - ID: tac-ch5-28-focusing-incense
+    Title: Focusing Incense
+    Puzzle: tac-ch5-28-focusing-incense
+    Requires: ""
+  - ID: tac-document-symposium-agenda-morning
+    Title: "Symposium Agenda, Morning"
+    Puzzle: empty
+    Requires: "tac-ch5-28-focusing-incense"
+  - ID: tac-ch5-29-black-textiles
+    Title: Black Textile
+    Puzzle: tac-ch5-29-black-textiles
+    Requires: "tac-ch5-28-focusing-incense"
+  - ID: tac-ch5-30-suite-of-senses
+    Title: Suite of Senses
+    Puzzle: tac-ch5-30-suite-of-senses
+    Requires: "tac-ch5-28-focusing-incense"
+  - ID: tac-ch5-31-fingerprinting-dust
+    Title: Fingerprinting Dust
+    Puzzle: tac-ch5-31-fingerprinting-dust
+    Requires: "tac-ch5-28-focusing-incense"
+  - ID: tac-ch5-32-death-cheat
+    Title: Death Cheat
+    Puzzle: tac-ch5-32-death-cheat
+    Requires: "tac-ch5-28-focusing-incense"
+  - ID: tac-ch5-33-opus-vitae
+    Title: Opus Vitae
+    Puzzle: tac-ch5-33-opus-vitae
+    Requires: 5
+    Icon: textures/puzzle_select/icon_puzzle_red
+    IconSmall: textures/puzzle_select/icon_puzzle_red_small
+  - ID: tac-document-symposium-agenda-afternoon
+    Title: "Symposium Agenda, Afternoon"
+    Puzzle: empty
+    Requires: "tac-ch5-33-opus-vitae"
+  - ID: tac-ch5-34-recardination
+    Title: Recardination
+    Puzzle: tac-ch5-34-recardination
+    Requires: "tac-document-symposium-agenda-afternoon"  #### symosium agenda evening
+    Icon: textures/puzzle_select/icon_puzzle_red
+    IconSmall: textures/puzzle_select/icon_puzzle_red_small
+  - ID: tac-cutscene-ch5-opus-mors
+    Title: Opus Mors
+    Puzzle: empty
+    Requires: "tac-ch5-34-recardination"
+  - ID: tac-document-the-end
+    Title: "The End"
+    Puzzle: empty
+    Requires: "tac-cutscene-ch5-opus-mors"
+  - ID: tac-ch5-35-champagne
+    Title: Champagne
+    Puzzle: tac-ch5-35-champagne
+    Requires: "tac-cutscene-ch5-opus-mors" 
+
+
+
+

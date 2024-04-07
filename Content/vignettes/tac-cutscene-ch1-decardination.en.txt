@@ -1,0 +1,38 @@
+Portraits: Eleanor (Right)
+
+Eleanor (Right): Another day of...nothing.
+Eleanor (Right): Why am I even bothering anymore?
+Eleanor (Right): Day in, day out, better Purification ideas going nowhere, while everyone's moving on ahead of me.
+Eleanor (Right): I'm not good enough at this to be a Head Alchemist.
+Eleanor (Right): I'm never going to get my big break...
+Nadine (Left): Alchemist Herriman, the door is unlocked.
+Action: Change, Eleanor (Right), Eleanor (Left)
+Eleanor (Left): Oh!
+Action: Enter, Nadine (Left)
+Eleanor (Left): I thought I couldn't enter without invitation, my apologies.
+Nadine (Left): My door is open to all students. What brings you here?
+Eleanor (Left): I...came to ask for higher permissions for the Glyph of Animismus. In case I need to use it regularly.
+Nadine (Left): ...
+Nadine (Left): Permission, or forgiveness?
+Eleanor (Left): ...forgiveness.
+Nadine (Left): Granted.
+Eleanor (Left): What, really? Thank you--
+Nadine (Left): _Provided_ that you understand the consequences. Animismus is a very dangerous and wasteful glyph.
+Eleanor (Left): I understand, Nadine. I save all excess vitae to avoid waste, and Dispose all excess mors to avoid danger.
+Nadine (Left): That isn't the problem.
+Nadine (Left): But I think you're the right kind of person to understand the real reason that the Glyph of Animismus is frowned upon.
+Eleanor (Left): I'm...listening?
+Nadine (Left): The four cardinals, and salt, are interconvertible. Even Quintessence can be unified or dispersed. Anywhere that one can reach with salt, one can return.
+Nadine (Left): This is _not_ the case for animismus. Every pair of salt atoms lost to make vitae and mors is gone forever.
+Nadine (Left): We call this problem Decardination, the loss of cardinals towards vitae and mors. It hasn't impacted the world yet, but in the distant future, it will.
+Nadine (Left): The Glyph of Disposal sends its atoms somewhere undisclosed, but we have no such hidden cache with animismus.
+Nadine (Left): I only ask that you remember these consequences every time you use the glyph. No amount of vitae can stop someone from dying of thirst when there is no water left in the world. Understand?
+Eleanor (Left): That sounds a lot like the Purification metal loss problem.
+Eleanor (Left): Maybe I can work on this one instead?
+Nadine (Left): Oh my, a undergraduate wants to challenge Decardination?
+Eleanor (Left): If I'm not being too presumptuous.
+Nadine (Left): Granted in spades.
+Nadine (Left): Speak with Oswald Terrell. He's researching a way to retrieve salt from mors.
+Nadine (Left): And, before you go, if you're going to work with animismus, take this package. It's a little something Oberon Berke is trialing.
+Eleanor (Left): Thank you so much, Alchemist Tolomeo.
+Nadine (Left): Please, call me Nadine.

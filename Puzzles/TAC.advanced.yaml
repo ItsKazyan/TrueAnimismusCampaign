@@ -1,0 +1,501 @@
+##################################################
+Credits:
+  PositionOffset: -300.0, -710.0 ## "0.0, 0.0" is the center of the screen, "-946.0, -710.0" is the vanilla position
+  Texts:
+  - - "*True Animismus*"
+##########
+  - - "By Alchemist Kazyan"
+##########
+  - - "Special Thanks"
+ ########## 
+  - - "RP0, mr\\_puzzel, zorflax"
+    - "The Reductive Metallurgy team"
+    - "(If you liked this mod, play theirs)"
+##########
+    - "mr_puzzel, again, for answering all of my coding questions"
+    - "Zachtronics, for inventing alchemy"
+    - "Luna, for the Quintessential mod loader and more coding help"
+    - "The Unofficial Zachtronics Discord"
+##########
+  - - "Creative Commons Attributions"
+    - "Hanay, for the protograph used for Nadine's Office"
+##########
+  - - "And thanks to you, for playing!"
+##########
+##################################################
+SigmarStoryUnlocks:
+- 1
+##################################################
+SigmarsGardens:
+- "tac-sigmars-garden"
+##################################################
+Characters:
+##################################TAC characters
+- ID: "Eleanor (Left)"
+  Name: "Eleanor Herriman"
+  SmallPortrait: portraits/eleanor_small
+  LargePortrait: portraits/eleanor_large
+  Color: 4473924
+  IsOnLeft: true
+- ID: "Eleanor (Left Reversed)"
+  Name: "Eleanor Herriman"
+  SmallPortrait: portraits/eleanor_small_reversed
+  LargePortrait: portraits/eleanor_large
+  Color: 4473924
+  IsOnLeft: true
+- ID: "Eleanor (Left Tired)"
+  Name: "Eleanor Herriman"
+  SmallPortrait: portraits/eleanor_tired_small
+  LargePortrait: portraits/eleanor_tired_large
+  Color: 4473924 
+  IsOnLeft: true
+- ID: "Eleanor (Right)"
+  Name: "Eleanor Herriman"
+  SmallPortrait: portraits/eleanor_small
+  LargePortrait: portraits/eleanor_large_reversed
+  Color: 4473924
+- ID: "Eleanor (Left Tears)"
+  Name: "Eleanor Herriman"
+  SmallPortrait: portraits/eleanor_tears_small
+  Color: 4473924
+  IsOnLeft: true
+
+- ID: "Harriet (Left)"
+  Name: "Harriet Herriman"
+  SmallPortrait: portraits/harriet_small
+  LargePortrait: portraits/harriet_large
+  Color: 9179715
+  IsOnLeft: true
+- ID: "Harriet (Right)"
+  Name: "Harriet Herriman"
+  SmallPortrait: portraits/harriet_small
+  LargePortrait: portraits/harriet_large
+  Color: 9179715
+- ID: "Harriet (Left Reversed)"
+  Name: "Harriet Herriman"
+  SmallPortrait: portraits/harriet_small_reversed
+  LargePortrait: portraits/harriet_large
+  Color: 9179715
+  IsOnLeft: true
+- ID: "Harriet (Left Door)"
+  Name: "Harriet Herriman"
+  SmallPortrait: portraits/door_small
+  LargePortrait: portraits/door_large
+  Color: 9179715
+  IsOnLeft: true
+- ID: "Harriet (Super)"
+  Name: "Harriet Herriman"
+  LargePortrait: portraits/harriet_super_large
+  Color: 9179715
+
+
+- ID: "Nadine (Left)"
+  Name: "Nadine Tolomeo"
+  SmallPortrait: portraits/nadine_small
+  LargePortrait: portraits/nadine_large
+  Color: 2458677 #11982760
+  IsOnLeft: true
+- ID: "Nadine (Right)"
+  Name: "Nadine Tolomeo"
+  SmallPortrait: portraits/nadine_small
+  LargePortrait: portraits/nadine_large_reversed
+  Color: 2458677 #11982760
+
+
+- ID: "Oswald (Left)"
+  Name: "Oswald Terrell, Al. D."
+  SmallPortrait: portraits/oswald_small
+  LargePortrait: portraits/oswald_large
+  Color: 13939535
+  IsOnLeft: true
+- ID: "Oswald (Right)"
+  Name: "Oswald Terrell, Al. D."
+  SmallPortrait: portraits/oswald_small
+  LargePortrait: portraits/oswald_large_reversed
+  Color: 13939535
+
+- ID: "Conspicuously Empty Space"
+  Name: "Conspicuously Empty Space"
+  SmallPortrait: portraits/conspicuously_empty_space_small
+  LargePortrait: portraits/conspicuously_empty_space_large
+  Color: 15843890
+- ID: "Conspicuously Empty Space (Eleanor)"
+  Name: "Eleanor Herriman"
+  SmallPortrait: portraits/conspicuously_empty_space_small
+  LargePortrait: portraits/conspicuously_empty_space_large
+  Color: 15843890
+- ID: "Eleanor's Transmutation Engine"
+  Name: "Eleanor's Transmutation Engine"
+  SmallPortrait: portraits/transmutation-engine
+  Color: 4473924
+
+
+
+
+##################################TAC supporting slides
+- ID: "Henley (Student Large)"
+  Name: "Henley Servin"
+  LargePortrait: portraits/henley_student_large
+  Color: 6383694 #no color needed for this character
+- ID: "Anataeus (Student Large)"
+  Name: "Anataeus Vaya"
+  LargePortrait: portraits/anataeus_student_large
+  Color: 3 #no color needed for this character
+- ID: "Bruiser"
+  Name: "Bruiser"
+  LargePortrait: portraits/boxer_large
+  Color: 3 #no color needed for this character
+- ID: "Mercenaries (Left)"
+  Name: "Mercenaries"
+  LargePortrait: portraits/mercenery_large
+  Color: 3 #no color needed for this character
+- ID: "Mercenaries (Right)"
+  Name: "Mercenaries"
+  LargePortrait: portraits/mercenery_large
+  Color: 3 #no color needed for this character
+- ID: "Smoke Cloud"
+  Name: "Smoke Cloud"
+  LargePortrait: portraits/smoke-cloud_large
+  Color: 3 #no color needed for this character
+- ID: "Smoke Cloud With Symbol"
+  Name: "Smoke Cloud"
+  LargePortrait: portraits/smoke-cloud-symbol_large
+  Color: 3 #no color needed for this character
+- ID: A Passing Student
+  Name: A Passing Student
+  LargePortrait: portraits/smoke-cloud_large # Placeholder
+  Color: 3 #no color needed for this character
+- ID: A Wandering Alchemist
+  Name: A Wandering Alchemist
+  LargePortrait: portraits/smoke-cloud_large # Placeholder
+  Color: 3 #no color needed for this character
+- ID: A Hallway Loiterer
+  Name: A Hallway Loiterer
+  LargePortrait: portraits/smoke-cloud_large # Placeholder
+  Color: 3 #no color needed for this character
+- ID: Pit Commentator
+  Name: Pit Commentator
+  LargePortrait: portraits/smoke-cloud_large # Placeholder
+  Color: 3 #no color needed for this character
+- ID: Audience
+  Name: Audience
+  LargePortrait: portraits/smoke-cloud_large # Placeholder
+  Color: 3 #no color needed for this character
+
+
+
+##################################################
+Cutscenes:
+- ID: tac-cutscene-ch0-spill
+  Location: Imperial University, Alchemical Storage Room 11
+  Background: backgrounds/ch0-spill
+  Music: Story1
+- ID: tac-cutscene-ch1-decardination
+  Location: N. Tolomeo's Crown
+  Background: backgrounds/nadines-office
+  Music: Story1
+- ID: tac-cutscene-ch2-taking-credit
+  Location: Hallway Near Oswald's Office
+  Background: backgrounds/campus-hallway
+  Music: Story1
+- ID: tac-cutscene-ch2-i-had-a-hunch
+  Location: Nadine's Crown
+  Background: backgrounds/nadines-office
+  Music: Story1
+- ID: tac-cutscene-ch3-the-fighting-ring
+  Location: Underground Fighting Ring
+  Background: backgrounds/fighting-ring
+  Music: Story1
+- ID: tac-cutscene-ch3-banned
+  Location: Nadine's Crown
+  Background: backgrounds/nadines-office
+  Music: Story1
+- ID: tac-cutscene-ch4-blackmail
+  Location: The Herrimans' Cabin
+  Background: backgrounds/cabin
+  Music: Story2
+- ID: tac-cutscene-ch4-brewing-schemes
+  Location: Hallway Near Oswald's Office
+  Background: backgrounds/campus-hallway
+  Music: Story2
+- ID: tac-cutscene-ch4-wilting
+  Location: The Herrimans' Cabin
+  Background: backgrounds/cabin
+  Music: Story1
+- ID: tac-cutscene-ch5-opus-mors
+  Location: Not Quite Far Enough Away from the Symposium
+  Background: backgrounds/well-outside-the-symposium
+  Music: Story2
+##################################################
+Documents:
+##########
+
+# Available fonts:
+#   "crimson 9.75"      "crimson 10.5"      "crimson 12"        "crimson 13"        "crimson 15"        "crimson 16.5"      "crimson 21"
+#   "cormorant 11"      "cormorant 12.75"   "cormorant 15"      "cormorant 18"      "cormorant 22.5"    "cinzel 21"         "naver 17.25"       "reenie 17.25"
+- ID: tac-document-intro
+  Texture: textures/documents/letter_6
+  DrawItems:
+  - Position: 200, 600
+    Font: "crimson 15"
+    Color: 2299924
+    Align: left
+    LineSpacing: 1.0
+    ColumnWidth: 850.0
+    Handwritten: false
+  - Position: 200, 300
+    Font: "cinzel 21"
+    Color: 2299924
+    Align: left
+    LineSpacing: 1.0
+    ColumnWidth: 850
+    Handwritten: false
+# - ID: tac-document-metrics
+#   Texture: textures/documents/letter_6
+#   DrawItems:
+#   - Position: 200, 600
+#     Font: "crimson 15"
+#     Color: 2299924
+#     Align: left
+#     LineSpacing: 1.0
+#     ColumnWidth: 850.0
+#     Handwritten: false
+- ID: tac-document-dispro-workprint
+  Texture: documents/tac-document-dispro-workprint
+  DrawItems:
+  - Position: 120, 820
+- ID: campus-map-in-postcard-harriet's-path
+  Texture: documents/campus-map-in-postcard-harriet's-path
+- ID: tac-document-process-of-elimination
+  Texture: documents/tac-document-process-of-elimination
+  DrawItems:
+  - Position: 120, 820
+- ID: campus-map-in-postcard-harriet's-second-path
+  Texture: documents/campus-map-in-postcard-harriet's-second-path
+- ID: tac-document-symposium-agenda-morning
+  Texture: textures/documents/letter_5
+  DrawItems:
+  - Position: 314.0, 655.0 ## "The Alchemical Symposium"
+    Font: "cormorant 18"
+    Align: center
+  - Position: 314.0, 628.0 ## "Monday Session"
+    Font: "cormorant 15"
+    Align: center
+  - Position: 139, 610
+    Texture: documents/horizontal_bar
+  - Position: 195.0, 580.0 ## times
+    Font: "cormorant 12.75"
+    Align: right 
+    LineSpacing: 1.0
+  - Position: 215.0, 580.0 ## events
+    Font: "cormorant 12.75"
+- ID: tac-document-symposium-agenda-afternoon
+  Texture: documents/alchemical-symposium-agenda-afternoon
+  DrawItems:
+  - Position: 120, 820 
+- ID: tac-document-the-end
+  Texture: textures/documents/letter_1
+  DrawItems:
+  - Position: 200, 550
+    Font: "cormorant 12.75"
+    Color: 2299924
+    Align: left
+    LineSpacing: 1.0
+    ColumnWidth: 850.0
+    Handwritten: false
+
+##################################################
+Puzzles:
+##########
+
+- ID: tac-ch0-0-tips-sandbox
+  Music: Solving1
+- ID: tac-ch1-1-bacon-and-antimony
+  Music: Solving3
+- ID: tac-ch1-2-heart-medicine
+  Music: Solving4
+- ID: tac-ch1-3-coagulation-compounds
+  Music: Solving5
+- ID: tac-ch1-4-chelating-steam
+  Music: Solving2
+- ID: tac-ch1-5-malleable-crystal
+  Music: Solving6
+  Tip:
+    ID: TACT000
+    Title: "The Disposal Jack"
+    Description: "When placed atop an animismus-producing iris, the *Disposal Jack* disposes the emerging atom."
+    Solution: TACdisposaljack
+    SolutionOffset: 0, 0
+- ID: tac-ch1-6-milk-of-mors
+  Music: Solving5
+- ID: tac-ch1-7-disproportionated-salt
+  Music: Solving1
+  Tip:
+     ID: TACT001
+     Title: "The Glyph of Disproportion"
+     Description: "The *Glyph of Disproportion* disproportionates identical atoms of animismus into one higher atom and one lower atom.\n\n All animismus is conserved."
+     Solution: TACdisproportion
+     SolutionOffset: 41, 41
+- ID: tac-ch2-8-novel-primes
+  Music: Solving3
+  Tip:
+     ID: TACT002
+     Title: "Chirality"
+     Description: "The Glyph of Disproportion is chiral--it cannot be rotated onto its mirror image. While dragging a lone glyph of disproportion, press *C* to mirror it."
+     Texture: tips/TACchirality
+- ID: tac-ch2-10-eyedrops-of-vision
+  Music: Solving5
+- ID: tac-ch2-11-proof-of-incompleteness
+  Music: Solving3
+- ID: tac-ch2-12-vanishing-cord
+  Music: Solving2
+- ID: tac-ch2-13-all-purpose-sterilizer
+  Music: Solving2
+- ID: tac-ch2-14-grey-mirror
+  Music: Solving1
+  Tip:
+    ID: TACT004
+    Title: "The Glyph of the Left Hand"
+    Description: "The *Glyph of the Left Hand* inverts an atom of animismus. Vitae becomes mors and mors becomes vitae.\n\nThe grade of animismus is conserved."
+    Solution: TAClefthand
+- ID: tac-ch3-15-tooth-serum
+  Music: Solving3
+- ID: tac-ch3-16-tourniquet-thread
+  Music: Solving6
+- ID: tac-ch3-17-rotgut
+  Music: Solving2
+- ID: tac-ch3-18-hangunder-cure
+  Music: Solving4
+  Cabinet:
+    ExpandRight: true
+    Conduits:
+    - Position1: 2, 0
+      Position2: 8, -2
+      Hexes:
+      - 0, 0
+    Overlays:
+    VialHolders:
+      - Position: 1, 3
+        TopSide: true
+        Vials:
+          - TextureSim: "textures/pipelines/vials/elemental_mors/full"
+            TextureGif: "textures/pipelines/vials/elemental_mors/draining"
+          - TextureSim: "textures/pipelines/vials/elemental_water/full"
+            TextureGif: "textures/pipelines/vials/elemental_water/draining"
+      - Position: 4, -3
+        Vials:
+          - TextureSim: "textures/pipelines/vials/vapor_of_levity/empty"
+            TextureGif: "textures/pipelines/vials/vapor_of_levity/empty"
+##### Production vials for Hangunder: vapor of levity output, elemental water input from RMC, madness amalgam custom vials
+- ID: tac-ch3-19-deep-etchant
+  Music: Solving1
+  Cabinet:
+    ExpandRight: true
+    Conduits:
+    - Position1: -3, 0
+      Position2: 9, 2
+      Hexes:
+      - 0, 0
+    - Position1: 3, 0
+      Position2: 9, -2
+      Hexes:
+      - 0, 0
+    Overlays:
+    VialHolders:
+      - Position: 5, -3
+        Vials:
+          - TextureSim: "textures/pipelines/vials/horrible_acid_empty"
+            TextureGif: "textures/pipelines/vials/horrible_acid_filling"
+      - Position: 2, 3
+        TopSide: true
+        Vials:
+          - TextureSim: "textures/pipelines/vials/elemental_silver_full"
+            TextureGif: "textures/pipelines/vials/elemental_silver_draining"
+          - TextureSim: "textures/pipelines/vials/greater_animismus"
+            TextureGif: "textures/pipelines/vials/greater_animismus"
+##### Production vials for deep etchant: elemental silver custom vials, greater animismus custom vial, horrible acid custom vial
+- ID: tac-ch3-19b-ultrapure-tin
+  Music: Solving2
+  Cabinet:
+    ExpandRight: true
+    Overlays:
+    VialHolders:
+      - Position: 2, 3
+        TopSide: true
+        Vials:
+          - TextureSim: "textures/pipelines/vials/ultrapure_tin"
+            TextureGif: "textures/pipelines/vials/ultrapure_tin"
+      - Position: 5, -3
+        Vials:
+          - TextureSim: "textures/pipelines/vials/ultrapure_tin"
+            TextureGif: "textures/pipelines/vials/ultrapure_tin"
+- ID: tac-ch3-20-adrenaline
+  Music: Solving5
+  Cabinet:
+    ExpandRight: true
+    Overlays:
+    VialHolders:
+      - Position: 2, 3
+        TopSide: true
+        Vials:
+          - TextureSim: "textures/pipelines/vials/true_vitae_full"
+            TextureGif: "textures/pipelines/vials/true_vitae_draining"
+#### Production vials for adrenaline: true vitae custom vials. That's it
+  Tip:
+    ID: TACT005
+    Title: "The Glyph of Infusion"
+    Description: "The *Glyph of Infusion* transfers one unit of animismus to another of lower grade, so long as they are not in opposition.\n\n All animismus is conserved."
+    Solution: TACinfusion
+    SolutionOffset: 41, 0
+- ID: tac-ch1-21-iodized-salt
+  Music: Solving4
+- ID: tac-ch1-22-oswald's-genius
+  Music: Solving2
+- ID: tac-ch1-23-miasmic-warhead
+  Music: Solving3
+- ID: tac-ch1-24-brilliance-unmatched
+  Music: Solving5
+- ID: tac-ch1-25-synthesis-via-hope
+  Music: Solving1
+- ID: tac-ch1-26-strength-potion
+  Music: Solving6
+- ID: tac-ch4-27-wheel-refurbishing
+  Music: Solving1
+  Tip:
+    ID: TACT006
+    Title: "Herriman's Wheel"
+    Description: "Herriman's Wheel can receive from the Glyph of Infusion, even if its atom is in opposition, or donate through the Glyph of Infusion with normal restrictions."
+    Solution: TACherriman
+- ID: tac-ch5-28-focusing-incense
+  Music: Solving2
+  Tip:
+    ID: TACT007
+    Title: "Recharging Herriman's Wheel"
+    Description: "Herriman's Wheel can be recharged by mediating one half of the Glyph of Animismus or the Glyph of Disproportion."
+    Solution: TACherrimanrecharge
+    SolutionOffset: 0, -41
+- ID: tac-ch1-29-black-textile
+  Music: Solving5
+- ID: tac-ch1-30-suite-of-senses
+  Music: Solving2
+- ID: tac-ch1-31-fingerprinting-dust
+  Music: Solving4
+- ID: tac-ch1-32-death-cheat
+  Music: Solving5
+- ID: tac-ch1-33-opus-vitae
+  Music: Solving1
+- ID: tac-ch1-34-recardination
+  Music: Solving1
+- ID: tac-document-symposium
+  Texture: textures/documents/letter_5
+  DrawItems:
+  - Position: 314.0, 655.0 ## "The Alchemical Symposium"
+    Font: "cormorant 18"
+    Align: center
+- ID: tac-ch5-35-champagne
+  Music: Solitaire
+  Tip:
+    ID: TACT009
+    Title: "Credits"
+    Description: "*True Animismus*, by Alchemist Kazyan\nSpecial thanks to the Reductive Metallurgy team, *RP0*, *mr\_puzzel*, and *zorflax*.\nIf you liked Decardination, play the Reductive Metallurgy campaign.\n\nAdditional thanks to:\n\n*mr\_puzzel*, for answering a thousand coding questions and the Elemental Mors vial,\n*Zachtronics*, for inventing alchemy, *Luna*, for Quintessential and more coding help,\n*The Unofficial Zachtronics Discord*, and *you*, for playing!"
+    Texture: tips/TACcredits

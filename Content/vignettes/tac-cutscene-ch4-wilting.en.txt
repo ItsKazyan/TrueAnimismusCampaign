@@ -1,0 +1,23 @@
+Portraits: Eleanor (Left), Harriet (Right)
+
+Harriet (Right): So that's the situation.
+Harriet (Right): I can't find Nadine and he stole your Symposium slot.
+Harriet (Right): I really, really shouldn't have signed that.
+Harriet (Right): I'm sorry. I know it means so much to you, and I let you down.
+Eleanor (Left): Oh, shush, you just saved my life.
+Eleanor (Left): I'm not going to challenge him again, anyway...
+Harriet (Right): Huh?
+Eleanor (Left): Every time I come back with a new glyph, things get worse for me.
+Eleanor (Left): None of this matters. 
+Eleanor (Left): Maybe Nadine is right. I should just focus on medicine and stop...wanting any credit for what I do. Helping people should be its own reward, even if it makes people like Oswald look good and people like me look bad.
+Harriet (Right): Ellie, stop that!
+Harriet (Right): You're a _genius_. The Symposium needs to know that.
+Harriet (Right): If you can't bring your glyphs without Oswald screaming at you, bring a cool new molecule or something. Or let me punch him.
+Eleanor (Left): Harriet...I'm sorry. We're just stuck this time.
+Eleanor (Left): It's late at night. I have no time to prepare, no reagents, no glyph-building materials without Oswald's stuff, and I can't even lean on Nadine this time.
+Eleanor (Left): I'm tired. I just want to sleep.
+Harriet (Right): ...
+Eleanor (Left): I guess I could show off the flower in my pocket. I never got to show it to Nadine.
+Eleanor (Left): It's just a wheel of all of the animismus atoms, but it's someth--
+Eleanor (Left): ...
+Harriet (Right): I know that 'idea' face.

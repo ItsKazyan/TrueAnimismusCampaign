@@ -1,0 +1,13 @@
+Portraits: Anataeus (Student Large), Henley (Student Large)
+
+Anataeus (Student Large): ...which makes it obvious that triplex bonds aren't exclusive to fire.
+Henley (Student Large): I like the concept. You'll have to learn how to use a transmutation engine to try it, though.
+Henley (Student Large): So you're aware, I've taken care of your spill in the Transmutation Lab, so we can try this at any time.
+Anataeus (Student Large): You don't know it was me.
+Henley (Student Large): There was elemental mors on the counter.
+Henley (Student Large): You're the only alchemist I know who would do what the Glyph of Animismus does by hand.
+Anataeus (Student Large): I'm still not certain why I'm alone, that. Animismus is underexplored territory. I thought I'd look into it.
+Henley (Student Large): It's underexplored for good reason. I know I can't tell you what to do, Anataeus, but perhaps you should wait until you have your Al. D....
+Anataeus (Student Large): Oh, no, I have different plans for what to do after graduation. 
+Anataeus (Student Large): But I'm in no rush. No one will find all of the secrets of vitae and mors before I get to them.
+Henley (Student Large): That's the Anataeus I know....

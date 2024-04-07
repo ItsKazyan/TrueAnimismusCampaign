@@ -1,0 +1,152 @@
+Name: 20. TIN ULTRAREFINEMENT
+ID: tac-ch3-19b-ultrapure-tin
+Author: ''
+Inputs:
+- Molecule:
+    Atoms:
+    - AtomType: tin
+      Position:
+        Pos: 1,-1
+    - AtomType: tin
+      Position:
+        Pos: 1,0
+    - AtomType: tin
+      Position:
+        Pos: -1,1
+    - AtomType: tin
+      Position:
+        Pos: 0,1
+    - AtomType: tin
+      Position:
+        Pos: 0,-1
+    - AtomType: tin
+      Position:
+        Pos: -1,0
+    - AtomType: vitae
+      Position:
+        Pos: 0,0
+    Bonds:
+    - A:
+        Pos: 0,-1
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,-1
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,1
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,1
+      B:
+        Pos: 0,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,0
+      B:
+        Pos: -1,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,0
+      B:
+        Pos: 0,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,0
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    Name: Tin Pristine
+  Amount: -1
+Outputs:
+- Molecule:
+    Atoms:
+    - AtomType: tin
+      Position:
+        Pos: 1,0
+    - AtomType: tin
+      Position:
+        Pos: 0,-1
+    - AtomType: tin
+      Position:
+        Pos: -1,1
+    - AtomType: mors
+      Position:
+        Pos: 0,0
+    - AtomType: tin
+      Position:
+        Pos: -1,0
+    - AtomType: tin
+      Position:
+        Pos: 0,1
+    - AtomType: tin
+      Position:
+        Pos: 1,-1
+    Bonds:
+    - A:
+        Pos: 0,-1
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,-1
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,1
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,1
+      B:
+        Pos: 0,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,0
+      B:
+        Pos: -1,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,0
+      B:
+        Pos: 0,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,0
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    Name: Tin Pest
+  Amount: -1
+PermissionFlags: AllMechanisms, Bonder, Unbonder, BasicSymbols, ResetSymbol, RepeatSymbol, PivotSymbols
+CustomPermissions:
+- TrueAnimismus:lefthand
+PartQuotas: {}
+Highlights: []
+ProductionInfo: 
+  Chambers:
+  - ChamberType: Large
+    Position:
+      Pos: 0,0
+  Isolation: false

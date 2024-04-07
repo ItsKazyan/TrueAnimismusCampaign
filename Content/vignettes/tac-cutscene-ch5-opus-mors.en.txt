@@ -1,0 +1,30 @@
+Portraits: Mercenaries (Left), Harriet (Left), Mercenaries (Right)
+
+Mercenaries (Left): We have you surrounded.
+Mercenaries (Right): Any last words?
+Harriet (Left): Nope.
+Mercenaries (Left): Throw the explosives!
+Action: Change, Harriet (Left), Smoke Cloud
+Mercenaries (Left): ...
+Mercenaries (Right): He gave us so many explosives to take down a lone person.
+Mercenaries (Right): This may have been overdoing the lethal force.
+Mercenaries (Left): A guilder is a guilder. Let's get back to--
+Action: Change, Smoke Cloud, Smoke Cloud With Symbol
+Mercenaries (Left): What?
+Mercenaries (Left): What is that?
+Action: Change, Smoke Cloud With Symbol, Harriet (Super)
+Harriet (Super): AHAHAHAHAH!
+Harriet (Super): Is a guilder worth laying down your life?
+Mercenaries (Right): Oh no.
+Harriet (Super): Throw a few more of those. Break my winning streak, won't you?
+Mercenaries (Left): RETREAT!
+Harriet (Super): Oh no you don't, friends, I'm coming after you!
+
+
+
+
+
+
+
+
+

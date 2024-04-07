@@ -1,0 +1,97 @@
+Name: 4. CHELATING STEAM
+ID: tac-ch1-4-chelating-steam
+Author: ''
+Inputs:
+- Molecule:
+    Atoms:
+    - AtomType: salt
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: Elemental Salt
+  AmountOverride: 0
+- Molecule:
+    Atoms:
+    - AtomType: vitae
+      Position:
+        Pos: 0,0
+    - AtomType: mors
+      Position:
+        Pos: 1,0
+    - AtomType: mors
+      Position:
+        Pos: -1,1
+    Bonds:
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    Name: Blood Thickener
+  AmountOverride: 0
+Outputs:
+- Molecule:
+    Atoms:
+    - AtomType: mors
+      Position:
+        Pos: 1,1
+    - AtomType: mors
+      Position:
+        Pos: 2,-1
+    - AtomType: vitae
+      Position:
+        Pos: 0,0
+    - AtomType: air
+      Position:
+        Pos: 0,-1
+    - AtomType: water
+      Position:
+        Pos: 1,-1
+    - AtomType: fire
+      Position:
+        Pos: 0,1
+    Bonds:
+    - A:
+        Pos: 0,1
+      B:
+        Pos: 1,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,-1
+      B:
+        Pos: 2,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 0,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,-1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    Name: Chelating Steam
+  AmountOverride: 0
+OutputMultiplier: 1
+PermissionFlags: Duplication, CoreTools, BaronWheel
+CustomPermissions:
+Highlights: []
+ProductionInfo: 

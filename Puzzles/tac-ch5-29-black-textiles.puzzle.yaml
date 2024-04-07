@@ -1,0 +1,171 @@
+Name: 30. BLACK TEXTILE
+ID: tac-ch5-29-black-textiles
+Author: ''
+Inputs:
+- Molecule:
+    Atoms:
+    - AtomType: vitae
+      Position:
+        Pos: 0,0
+    - AtomType: earth
+      Position:
+        Pos: 0,1
+    - AtomType: earth
+      Position:
+        Pos: 1,-1
+    - AtomType: earth
+      Position:
+        Pos: -1,0
+    Bonds:
+    - A:
+        Pos: -1,0
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 0,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - standard
+    Name: Topsoil Isolate
+  Amount: -1
+- Molecule:
+    Atoms:
+    - AtomType: tin
+      Position:
+        Pos: 0,0
+    - AtomType: mors
+      Position:
+        Pos: 1,0
+    Bonds:
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    Name: Antimony
+  Amount: -1
+Outputs:
+- Molecule:
+    Atoms:
+    - AtomType: salt
+      Position:
+        Pos: 0,0
+    - AtomType: salt
+      Position:
+        Pos: 1,0
+    - AtomType: iron
+      Position:
+        Pos: 0,1
+    - AtomType: iron
+      Position:
+        Pos: 2,-1
+    - AtomType: repeat
+      Position:
+        Pos: 2,0
+    Bonds:
+    - A:
+        Pos: 2,-1
+      B:
+        Pos: 2,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,0
+      B:
+        Pos: 2,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,1
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 0,1
+      BondTypes:
+      - standard
+    Name: Very Dark Thread
+  Amount: -1
+- Molecule:
+    Atoms:
+    - AtomType: True Mors:truemors
+      Position:
+        Pos: 0,0
+    - AtomType: earth
+      Position:
+        Pos: -1,1
+    - AtomType: earth
+      Position:
+        Pos: 0,1
+    - AtomType: earth
+      Position:
+        Pos: 1,0
+    - AtomType: earth
+      Position:
+        Pos: 1,-1
+    - AtomType: earth
+      Position:
+        Pos: 0,-1
+    - AtomType: earth
+      Position:
+        Pos: -1,0
+    Bonds:
+    - A:
+        Pos: 0,-1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 0,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,0
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    Name: Silencing Dye
+  Amount: -1
+PermissionFlags: Purification, LifeAndDeath, Disposal, CoreTools
+CustomPermissions:
+- TrueAnimismus:disproportion
+- TrueAnimismus:infusion
+- TrueAnimismus:herriman
+PartQuotas: {}
+Highlights: []
+ProductionInfo: 

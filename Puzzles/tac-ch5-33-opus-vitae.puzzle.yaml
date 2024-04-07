@@ -1,0 +1,359 @@
+Name: 34. OPUS VITAE
+ID: tac-ch5-33-opus-vitae
+Author: ''
+Inputs:
+- Molecule:
+    Atoms:
+    - AtomType: True Mors:truemors
+      Position:
+        Pos: 1,0
+    - AtomType: True Vitae:truevitae
+      Position:
+        Pos: -1,0
+    - AtomType: salt
+      Position:
+        Pos: 0,0
+    Bonds:
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,0
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    Name: Perfect Animismus
+  AmountOverride: 0
+- Molecule:
+    Atoms:
+    - AtomType: lead
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: Elemental Lead
+  AmountOverride: 0
+- Molecule:
+    Atoms:
+    - AtomType: quicksilver
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: Elemental Quicksilver
+  AmountOverride: 0
+- Molecule:
+    Atoms:
+    - AtomType: water
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: Elemental Water
+  AmountOverride: 0
+Outputs:
+- Molecule:
+    Atoms:
+    - AtomType: quicksilver
+      Position:
+        Pos: 0,0
+    - AtomType: vitae
+      Position:
+        Pos: -1,-1
+    - AtomType: Grey Mors:greymors
+      Position:
+        Pos: -2,2
+    - AtomType: Grey Mors:greymors
+      Position:
+        Pos: -1,2
+    - AtomType: Grey Mors:greymors
+      Position:
+        Pos: -1,0
+    - AtomType: True Mors:truemors
+      Position:
+        Pos: 1,-1
+    - AtomType: Grey Mors:greymors
+      Position:
+        Pos: 0,1
+    - AtomType: quicksilver
+      Position:
+        Pos: 2,-2
+    Bonds:
+    - A:
+        Pos: -1,0
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,-1
+      B:
+        Pos: -1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 0,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,2
+      B:
+        Pos: 0,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -2,2
+      B:
+        Pos: -1,2
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,-1
+      B:
+        Pos: 2,-2
+      BondTypes:
+      - standard
+    Name: Mercury's Wrath
+  AmountOverride: 0
+- Molecule:
+    Atoms:
+    - AtomType: iron
+      Position:
+        Pos: 0,0
+    - AtomType: water
+      Position:
+        Pos: -1,1
+    - AtomType: water
+      Position:
+        Pos: 0,1
+    - AtomType: water
+      Position:
+        Pos: 1,0
+    - AtomType: water
+      Position:
+        Pos: 1,-1
+    - AtomType: water
+      Position:
+        Pos: 0,-1
+    - AtomType: water
+      Position:
+        Pos: -1,0
+    - AtomType: mors
+      Position:
+        Pos: -2,1
+    - AtomType: Grey Mors:greymors
+      Position:
+        Pos: 1,1
+    - AtomType: True Mors:truemors
+      Position:
+        Pos: 1,-2
+    - AtomType: Red Vitae:redvitae
+      Position:
+        Pos: -1,-1
+    - AtomType: True Vitae:truevitae
+      Position:
+        Pos: -1,2
+    - AtomType: vitae
+      Position:
+        Pos: 2,-1
+    Bonds:
+    - A:
+        Pos: 1,-1
+      B:
+        Pos: 2,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,-1
+      B:
+        Pos: 1,-2
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,-1
+      B:
+        Pos: -1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -2,1
+      B:
+        Pos: -1,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,2
+      B:
+        Pos: 0,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,0
+      B:
+        Pos: 1,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 0,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,0
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,-1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - standard
+    Name: Mars's Contempt
+  AmountOverride: 0
+- Molecule:
+    Atoms:
+    - AtomType: lead
+      Position:
+        Pos: -1,0
+    - AtomType: lead
+      Position:
+        Pos: 1,-1
+    - AtomType: lead
+      Position:
+        Pos: 0,1
+    - AtomType: True Vitae:truevitae
+      Position:
+        Pos: -1,1
+    - AtomType: True Vitae:truevitae
+      Position:
+        Pos: 0,-1
+    - AtomType: True Vitae:truevitae
+      Position:
+        Pos: 1,0
+    - AtomType: lead
+      Position:
+        Pos: 0,-2
+    - AtomType: lead
+      Position:
+        Pos: 1,-3
+    - AtomType: lead
+      Position:
+        Pos: 1,-4
+    - AtomType: True Vitae:truevitae
+      Position:
+        Pos: 0,0
+    Bonds:
+    - A:
+        Pos: -1,0
+      B:
+        Pos: 0,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,0
+      B:
+        Pos: -1,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,1
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,-1
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,-1
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,1
+      B:
+        Pos: 0,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,-2
+      B:
+        Pos: 1,-3
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,-4
+      B:
+        Pos: 1,-3
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,-2
+      B:
+        Pos: 0,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,-1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    Name: Saturn's Spite
+  AmountOverride: 0
+OutputMultiplier: 1
+PermissionFlags: Duplication, Projection, LifeAndDeath, CoreTools
+CustomPermissions:
+- TrueAnimismus:disproportion
+- TrueAnimismus:infusion
+- TrueAnimismus:lefthand
+- TrueAnimismus:herriman
+- TrueAnimismus:dispojack
+Highlights: []
+ProductionInfo: 

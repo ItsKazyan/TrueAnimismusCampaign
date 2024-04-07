@@ -1,0 +1,132 @@
+Name: 14. GREY MIRROR
+ID: tac-ch2-14-grey-mirror
+Author: ''
+Inputs:
+- Molecule:
+    Atoms:
+    - AtomType: air
+      Position:
+        Pos: -1,1
+    - AtomType: air
+      Position:
+        Pos: 0,-1
+    - AtomType: air
+      Position:
+        Pos: 1,0
+    - AtomType: silver
+      Position:
+        Pos: 0,0
+    Bonds:
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,-1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    Name: Silver Mirror
+  Amount: -1
+- Molecule:
+    Atoms:
+    - AtomType: True Vitae:truevitae
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: True Vitae
+  Amount: -1
+- Molecule:
+    Atoms:
+    - AtomType: Red Vitae:redvitae
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: Red Vitae
+  Amount: -1
+- Molecule:
+    Atoms:
+    - AtomType: vitae
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: Elemental Vitae
+  Amount: -1
+Outputs:
+- Molecule:
+    Atoms:
+    - AtomType: silver
+      Position:
+        Pos: 0,0
+    - AtomType: air
+      Position:
+        Pos: 0,-1
+    - AtomType: air
+      Position:
+        Pos: 1,0
+    - AtomType: air
+      Position:
+        Pos: -1,1
+    - AtomType: True Mors:truemors
+      Position:
+        Pos: -1,2
+    - AtomType: Grey Mors:greymors
+      Position:
+        Pos: 2,-1
+    - AtomType: mors
+      Position:
+        Pos: -1,-1
+    Bonds:
+    - A:
+        Pos: 0,-1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,-1
+      B:
+        Pos: 0,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,0
+      B:
+        Pos: 2,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,1
+      B:
+        Pos: -1,2
+      BondTypes:
+      - standard
+    Name: Grey Mirror
+  Amount: -1
+PermissionFlags: CoreTools
+CustomPermissions:
+- TrueAnimismus:lefthand
+PartQuotas: {}
+Highlights: []
+ProductionInfo: 

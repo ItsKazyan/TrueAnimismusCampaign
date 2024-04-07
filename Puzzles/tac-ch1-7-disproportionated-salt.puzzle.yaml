@@ -1,0 +1,36 @@
+Name: 7. DISPROPORTIONATED SALT
+ID: tac-ch1-7-disproportionated-salt
+Author: ''
+Inputs:
+- Molecule:
+    Atoms:
+    - AtomType: vitae
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: Elemental Vitae
+  Amount: -1
+Outputs:
+- Molecule:
+    Atoms:
+    - AtomType: salt
+      Position:
+        Pos: 0,0
+    - AtomType: salt
+      Position:
+        Pos: -1,0
+    Bonds:
+    - A:
+        Pos: -1,0
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    Name: Bistable Salt
+  Amount: -1
+PermissionFlags: Disposal, CoreTools
+CustomPermissions:
+- TrueAnimismus:disproportion
+PartQuotas: {}
+Highlights: []
+ProductionInfo: 

@@ -1,0 +1,24 @@
+Portraits: Eleanor (Left), Oswald (Left)
+
+Oswald (Left): I must say, everything goes much more smoothly when working on equal terms. We accomplished so much today.
+Eleanor (Left): Yes. I'm excited for tomorrow's presentation.
+Eleanor (Left): Thank you for buying me lunch. I loved that special tea.
+Oswald (Left): Only the best for my talented assistant.
+Eleanor (Left): I should go home now and see Harriet. I'm getting sleepy.
+Oswald (Left): Fare well.
+Action: Change, Eleanor (Left), Eleanor (Right)
+Eleanor (Right): I should...
+Eleanor (Right): Maybe I'll sleep in the student's lounge. I'm getting..._really_ sleepy...
+Eleanor (Right): ...
+Eleanor (Right): My heart...
+Oswald (Left): Finally. I was wondering when that would kick in.
+Action: Change, Eleanor (Right), Eleanor (Left)
+Eleanor (Left): You...
+Oswald (Left): Do you know how long you have to steep tea before it can cover the taste of poison?
+Oswald (Left): Your heart rate should continue plummeting. It won't be long now. Soon, you'll feel the icy--
+Action: Change, Eleanor (Left), Conspicuously Empty Space (Eleanor)
+Oswald (Right): ...
+Oswald (Right): Oh, she's unconscious already.
+Action: Change, Oswald (Left), Oswald (Right)
+Oswald (Right): I had an entire monologue prepared. Oh well.
+Oswald (Right): No one visits my office after hours. I'll lock her inside.

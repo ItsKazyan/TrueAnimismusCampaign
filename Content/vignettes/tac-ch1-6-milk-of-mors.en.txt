@@ -1,0 +1,19 @@
+Eleanor (Left): So, I know it's a touchy subject, but, if I could ask...
+Oswald (Right): You can talk to me all you like.
+Eleanor (Left): I might be able to help more if I could see your research notes?
+Oswald (Right): Well, _you_'ve been helpful so far. That counts for something.
+Oswald (Right): A little more work, and I'll let you take a look. Just don't check the bottom drawer. It's locked for a reason.
+
+-----------
+
+Eleanor (Left): This one was a little harder, but I cracked it. 
+Oswald (Right): Really? I'd been having fiendish trouble with it, myself.
+Oswald (Right): I'll measure its melting point tomorrow. You can take a look at my notes in the meantime.
+Eleanor (Left): Okay, good night!
+Oswald (Right): Good night, wonderful assistant.
+Eleanor (Left): ...
+Eleanor (Right): ...What do melting points have anything to do with Decardination?
+Eleanor (Right): I'll just look at these notes.
+Eleanor (Right): ...
+Eleanor (Right): Hold on, this looks much like Purification. Just backwards...so if I put two of these end-to-end for material conservation, and redo the transmutation pipes...I'd have to change the dualistic loop constants, too...oh, I'm in for a long night.
+

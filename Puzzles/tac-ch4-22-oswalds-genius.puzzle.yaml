@@ -1,0 +1,169 @@
+Name: 23. OSWALD'S GENIUS
+ID: tac-ch4-22-oswalds-genius
+Author: ''
+Inputs:
+- Molecule:
+    Atoms:
+    - AtomType: Grey Mors:greymors
+      Position:
+        Pos: 0,0
+    - AtomType: tin
+      Position:
+        Pos: -1,0
+    Bonds:
+    - A:
+        Pos: -1,0
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    Name: Sludge Antimony
+  AmountOverride: 0
+- Molecule:
+    Atoms:
+    - AtomType: fire
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: Elemental Fire
+  AmountOverride: 0
+Outputs:
+- Molecule:
+    Atoms:
+    - AtomType: tin
+      Position:
+        Pos: -1,1
+    - AtomType: tin
+      Position:
+        Pos: 0,-1
+    - AtomType: tin
+      Position:
+        Pos: 1,0
+    - AtomType: salt
+      Position:
+        Pos: 0,1
+    - AtomType: salt
+      Position:
+        Pos: 1,-1
+    - AtomType: salt
+      Position:
+        Pos: -1,0
+    - AtomType: fire
+      Position:
+        Pos: 0,0
+    Bonds:
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,-1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,1
+      B:
+        Pos: 0,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,1
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,-1
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,-1
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,0
+      B:
+        Pos: 0,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,0
+      B:
+        Pos: -1,1
+      BondTypes:
+      - standard
+    Name: Tinstone
+  AmountOverride: 0
+- Molecule:
+    Atoms:
+    - AtomType: mors
+      Position:
+        Pos: 0,0
+    - AtomType: mors
+      Position:
+        Pos: 1,0
+    Bonds:
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    Name: Chunky Mors
+  AmountOverride: 0
+- Molecule:
+    Atoms:
+    - AtomType: mors
+      Position:
+        Pos: 0,0
+    - AtomType: mors
+      Position:
+        Pos: 1,0
+    Bonds:
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    Name: Chunky Mors
+  AmountOverride: 0
+- Molecule:
+    Atoms:
+    - AtomType: mors
+      Position:
+        Pos: 0,0
+    - AtomType: mors
+      Position:
+        Pos: 1,0
+    Bonds:
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    Name: Chunky Mors
+  AmountOverride: 0
+OutputMultiplier: 1
+PermissionFlags: AllMechanisms, Bonder, SpeedBonder, Calcification, Duplication, LifeAndDeath, BasicSymbols, ResetSymbol, RepeatSymbol, PivotSymbols
+CustomPermissions:
+- TrueAnimismus:disproportion
+- TrueAnimismus:infusion
+- TrueAnimismus:lefthand
+Highlights: []
+ProductionInfo: 

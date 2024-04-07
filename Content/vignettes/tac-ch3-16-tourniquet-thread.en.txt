@@ -1,0 +1,19 @@
+Eleanor (Left): Alchemist Terrell, can I show you something?
+Oswald (Right): What is it?
+Eleanor (Left): The glyph I used for the tooth serum. This one _inverts_ animismus instead of concentrating it.
+Oswald (Right): Don't be ridiculous. Even inverting standard-grade vitae and mors is mathematically illegal, let alone the revolutionary grades I discovered.
+Eleanor (Left): You didn't...
+Oswald (Right): Show me the glyph.
+Eleanor (Left): Fine.
+
+-----------
+
+Oswald (Right): That's a clever sleight-of-hand, but I'm not fooled.
+Eleanor (Left): Fooled?
+Oswald (Right): Do you think I'm daft? Every unit of vitae is made with a unit of mors. You simply swapped the animismus negative of the molecule into the output vial. I don't have patience for _fake glyphs_.
+Eleanor (Left): It's not fake! You can try it yourself!
+Oswald (Right): Eleanor.
+Oswald (Right): I think it's best that you know your place in this University.
+Oswald (Right): Graduate students cannot make meaningful discoveries. You are no exception.
+Eleanor (Left): ...
+Eleanor (Left Tears): ... 

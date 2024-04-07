@@ -1,0 +1,15 @@
+Portraits: Harriet (Left), Nadine (Left), Eleanor (Left)
+
+Nadine (Left): And you must be Harriet.
+Harriet (Left): Am I that infamous?
+Nadine (Left): You punched out my least favorite nephew last week.
+Harriet (Left): Can you be more specific? I punch out a lot of people.
+Nadine (Left): ...
+Action: Change, Nadine (Left), Nadine (Right)
+Nadine (Right): I like her.
+Eleanor (Left): I've come to talk about how the animimus research is going. Have you heard of the Glyph of Disproportion that Alchemist Terrell is touting now? That's...actually mine.
+Eleanor (Left): I have this alchemical flower in my pocket of the three different 'grades' of vitae and mors, and no one else has enough experience with the Glyph of Disproportion to fake—
+Nadine (Right): Oh, I had a hunch that it was your design.
+Eleanor (Left): Wh...?
+Nadine (Right): Oswald has been researching Decardination for over a decade, now. It would be quite a coincidence if he were to make a stunning breakthrough so soon after getting an assistant, after nothing for so long.
+Nadine (Right): Show me how this works. You can use my personal transmutation engine.

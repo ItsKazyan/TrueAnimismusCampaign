@@ -1,0 +1,51 @@
+Name: 8. NOVEL PRIMES
+ID: tac-ch2-8-novel-primes
+Author: ''
+Inputs:
+- Molecule:
+    Atoms:
+    - AtomType: salt
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: Elemental Salt
+  Amount: -1
+Outputs:
+- Molecule:
+    Atoms:
+    - AtomType: Red Vitae:redvitae
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: Red Vitae
+  Amount: -1
+- Molecule:
+    Atoms:
+    - AtomType: True Vitae:truevitae
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: True Vitae
+  Amount: -1
+- Molecule:
+    Atoms:
+    - AtomType: Grey Mors:greymors
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: Grey Mors
+  Amount: -1
+- Molecule:
+    Atoms:
+    - AtomType: True Mors:truemors
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: True Mors
+  Amount: -1
+PermissionFlags: LifeAndDeath, Disposal, CoreTools
+CustomPermissions:
+- TrueAnimismus:disproportion
+PartQuotas: {}
+Highlights: []
+ProductionInfo: 

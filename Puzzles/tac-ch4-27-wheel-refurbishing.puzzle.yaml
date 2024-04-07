@@ -1,0 +1,136 @@
+Name: 28. WHEEL REFURBISHING
+ID: tac-ch4-27-wheel-refurbishing
+Author: ''
+Inputs:
+- Molecule:
+    Atoms:
+    - AtomType: True Mors:truemors
+      Position:
+        Pos: -1,1
+    - AtomType: True Vitae:truevitae
+      Position:
+        Pos: 0,1
+    - AtomType: Grey Mors:greymors
+      Position:
+        Pos: -1,0
+    - AtomType: mors
+      Position:
+        Pos: 0,-1
+    - AtomType: Red Vitae:redvitae
+      Position:
+        Pos: 1,0
+    - AtomType: vitae
+      Position:
+        Pos: 1,-1
+    - AtomType: salt
+      Position:
+        Pos: 0,0
+    Bonds:
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 0,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,-1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,0
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    Name: Herriman's Wheel
+  Amount: -1
+Outputs:
+- Molecule:
+    Atoms:
+    - AtomType: air
+      Position:
+        Pos: -1,1
+    - AtomType: water
+      Position:
+        Pos: 0,1
+    - AtomType: fire
+      Position:
+        Pos: 0,-1
+    - AtomType: earth
+      Position:
+        Pos: 1,-1
+    - AtomType: salt
+      Position:
+        Pos: 1,0
+    - AtomType: salt
+      Position:
+        Pos: 0,0
+    - AtomType: salt
+      Position:
+        Pos: -1,0
+    Bonds:
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 0,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,0
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,-1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    Name: Van Berlo's Wheel
+  Amount: -1
+PermissionFlags: Duplication, CoreTools, BaronWheel
+CustomPermissions:
+- TrueAnimismus:herriman
+- TrueAnimismus:infusion
+PartQuotas: {}
+Highlights: []
+ProductionInfo: 

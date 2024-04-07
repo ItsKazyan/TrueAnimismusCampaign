@@ -1,0 +1,10 @@
+﻿[DO NOT PARSE]
+
+Thank you for trying out True Animismus, a mod that elevates vitae and mors into a subsystem of its own, much like metals and purifijection. You'll have a lot of fun with it.
+
+If you enjoyed Reductive Metallurgy, you'll know how this content mod works. If you don't know what Reductive Metallurgy is, go play that mod first. Almost everything done here was pioneered by the open-source codebase of Reductive Metallurgy, and this made would not be remotely possible without the work of RP0, mr\_puzzel, and zorflax paving the way.
+
+The modern alchemist is as shy as those of old in using animismus, but for new reasons--we are no longer afraid of the power to wield life and death in our gripper's hands, only the geometry of the Glyph of Animismus itself. But the more we toy with powers beyond our comprehension, the less _beyond_ they become. We find what lays in store. We build. And with vitae embraced, we bring our creations to life.
+
+#- Alchemist Kazyan
+

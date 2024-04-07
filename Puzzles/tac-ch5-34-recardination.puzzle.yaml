@@ -1,0 +1,146 @@
+Name: 35. RECARDINATION
+ID: tac-ch5-34-recardination
+Author: ''
+Inputs:
+- Molecule:
+    Atoms:
+    - AtomType: vitae
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: Elemental Vitae
+  Amount: -1
+- Molecule:
+    Atoms:
+    - AtomType: vitae
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: Elemental Vitae
+  Amount: -1
+Outputs:
+- Molecule:
+    Atoms:
+    - AtomType: fire
+      Position:
+        Pos: 1,-1
+    - AtomType: vitae
+      Position:
+        Pos: -2,0
+    - AtomType: mors
+      Position:
+        Pos: 2,0
+    - AtomType: Grey Mors:greymors
+      Position:
+        Pos: 2,-2
+    - AtomType: salt
+      Position:
+        Pos: 0,0
+    - AtomType: quintessence
+      Position:
+        Pos: -1,0
+    - AtomType: quintessence
+      Position:
+        Pos: 1,0
+    - AtomType: water
+      Position:
+        Pos: 0,1
+    - AtomType: earth
+      Position:
+        Pos: 0,-1
+    - AtomType: Red Vitae:redvitae
+      Position:
+        Pos: -2,2
+    - AtomType: True Vitae:truevitae
+      Position:
+        Pos: 0,2
+    - AtomType: True Mors:truemors
+      Position:
+        Pos: 0,-2
+    - AtomType: air
+      Position:
+        Pos: -1,1
+    Bonds:
+    - A:
+        Pos: -1,0
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,-1
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,-1
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,0
+      B:
+        Pos: -1,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,1
+      B:
+        Pos: 0,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,-2
+      B:
+        Pos: 0,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,-1
+      B:
+        Pos: 2,-2
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,0
+      B:
+        Pos: 2,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -2,0
+      B:
+        Pos: -1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -2,2
+      B:
+        Pos: -1,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,1
+      B:
+        Pos: 0,2
+      BondTypes:
+      - standard
+    Name: Proof
+  Amount: -1
+PermissionFlags: Duplication, Quintessence, CoreTools, BaronWheel
+CustomPermissions:
+- TrueAnimismus:disproportion
+- TrueAnimismus:lefthand
+- TrueAnimismus:infusion
+- TrueAnimismus:herriman
+PartQuotas: {}
+Highlights: []
+ProductionInfo: 

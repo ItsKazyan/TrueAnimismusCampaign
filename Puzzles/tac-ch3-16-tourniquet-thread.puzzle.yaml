@@ -1,0 +1,113 @@
+Name: 16. TOURNIQUET THREAD
+ID: tac-ch3-16-tourniquet-thread
+Author: ''
+Inputs:
+- Molecule:
+    Atoms:
+    - AtomType: vitae
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: Elemental Vitae
+  Amount: -1
+- Molecule:
+    Atoms:
+    - AtomType: vitae
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: Elemental Vitae
+  Amount: -1
+- Molecule:
+    Atoms:
+    - AtomType: silver
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: Elemental Silver
+  Amount: -1
+Outputs:
+- Molecule:
+    Atoms:
+    - AtomType: silver
+      Position:
+        Pos: 0,0
+    - AtomType: salt
+      Position:
+        Pos: 2,-1
+    - AtomType: salt
+      Position:
+        Pos: 1,1
+    - AtomType: Red Vitae:redvitae
+      Position:
+        Pos: 0,1
+    - AtomType: Red Vitae:redvitae
+      Position:
+        Pos: 2,1
+    - AtomType: mors
+      Position:
+        Pos: 1,0
+    - AtomType: mors
+      Position:
+        Pos: 2,0
+    - AtomType: repeat
+      Position:
+        Pos: 3,0
+    Bonds:
+    - A:
+        Pos: 2,1
+      B:
+        Pos: 3,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 2,0
+      B:
+        Pos: 2,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 2,-1
+      B:
+        Pos: 2,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,0
+      B:
+        Pos: 2,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,1
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,1
+      B:
+        Pos: 1,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,1
+      B:
+        Pos: 2,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 0,1
+      BondTypes:
+      - standard
+    Name: Tourniquet Thread
+  Amount: -1
+PermissionFlags: CoreTools
+CustomPermissions:
+- TrueAnimismus:disproportion
+- TrueAnimismus:lefthand
+PartQuotas: {}
+Highlights: []
+ProductionInfo: 

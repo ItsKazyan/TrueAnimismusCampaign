@@ -1,0 +1,92 @@
+Name: 19. DEEP ETCHANT
+ID: tac-ch3-19-deep-etchant
+Author: ''
+Inputs:
+- Molecule:
+    Atoms:
+    - AtomType: salt
+      Position:
+        Pos: 0,0
+    - AtomType: Grey Mors:greymors
+      Position:
+        Pos: -1,0
+    - AtomType: Red Vitae:redvitae
+      Position:
+        Pos: 1,0
+    Bonds:
+    - A:
+        Pos: -1,0
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    Name: Greater Animismus
+  Amount: -1
+- Molecule:
+    Atoms:
+    - AtomType: silver
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: Elemental Silver
+  Amount: -1
+Outputs:
+- Molecule:
+    Atoms:
+    - AtomType: True Mors:truemors
+      Position:
+        Pos: 0,0
+    - AtomType: fire
+      Position:
+        Pos: -1,0
+    - AtomType: gold
+      Position:
+        Pos: -1,1
+    - AtomType: mors
+      Position:
+        Pos: 0,1
+    Bonds:
+    - A:
+        Pos: -1,1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,0
+      B:
+        Pos: -1,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 0,1
+      BondTypes:
+      - standard
+    Name: Horrible Acid
+  Amount: -1
+PermissionFlags: Duplication, Purification, LifeAndDeath, Disposal, CoreTools, BaronWheel
+CustomPermissions:
+- TrueAnimismus:disproportion
+- TrueAnimismus:lefthand
+PartQuotas: {}
+Highlights: []
+ProductionInfo:
+  Chambers:
+  - ChamberType: Large
+    Position:
+      Pos: 0,0
+  - ChamberType: Small
+    Position:
+      Pos: 10,-2
+  - ChamberType: Small
+    Position:
+      Pos: 10,2
+  Isolation: false

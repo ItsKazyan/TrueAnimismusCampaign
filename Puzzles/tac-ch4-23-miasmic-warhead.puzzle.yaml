@@ -1,0 +1,166 @@
+Name: 24. MIASMIC WARHEAD
+ID: tac-ch4-23-miasmic-warhead
+Author: ''
+Inputs:
+- Molecule:
+    Atoms:
+    - AtomType: fire
+      Position:
+        Pos: 0,0
+    - AtomType: fire
+      Position:
+        Pos: 1,0
+    - AtomType: salt
+      Position:
+        Pos: -1,0
+    Bonds:
+    - A:
+        Pos: -1,0
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - triplex_0
+      - triplex_1
+      - triplex_2
+    Name: Common Explosive
+  Amount: -1
+- Molecule:
+    Atoms:
+    - AtomType: copper
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: Elemental Copper
+  Amount: -1
+- Molecule:
+    Atoms:
+    - AtomType: Grey Mors:greymors
+      Position:
+        Pos: -1,1
+    - AtomType: Grey Mors:greymors
+      Position:
+        Pos: 0,1
+    - AtomType: Grey Mors:greymors
+      Position:
+        Pos: 1,0
+    - AtomType: Grey Mors:greymors
+      Position:
+        Pos: 1,-1
+    - AtomType: Grey Mors:greymors
+      Position:
+        Pos: 0,-1
+    - AtomType: Grey Mors:greymors
+      Position:
+        Pos: -1,0
+    - AtomType: water
+      Position:
+        Pos: 0,0
+    Bonds:
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 0,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,0
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,-1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - standard
+    Name: Teatime Toxin
+  Amount: -1
+Outputs:
+- Molecule:
+    Atoms:
+    - AtomType: Grey Mors:greymors
+      Position:
+        Pos: 1,0
+    - AtomType: silver
+      Position:
+        Pos: -1,0
+    - AtomType: mors
+      Position:
+        Pos: 0,0
+    - AtomType: Grey Mors:greymors
+      Position:
+        Pos: 2,0
+    Bonds:
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - triplex_0
+      - triplex_1
+      - triplex_2
+    - A:
+        Pos: 1,0
+      B:
+        Pos: 2,0
+      BondTypes:
+      - triplex_0
+      - triplex_1
+      - triplex_2
+    - A:
+        Pos: -1,0
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    Name: Miasmic Warhead
+  Amount: -1
+- Molecule:
+    Atoms:
+    - AtomType: gold
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: Elemental Gold
+  Amount: -1
+- Molecule:
+    Atoms:
+    - AtomType: gold
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: Elemental Gold
+  Amount: -1
+PermissionFlags: PrismaBonder, Duplication, Purification, Disposal, CoreTools
+CustomPermissions:
+- TrueAnimismus:disproportion
+- TrueAnimismus:lefthand
+- TrueAnimismus:infusion
+PartQuotas: {}
+Highlights: []
+ProductionInfo: 

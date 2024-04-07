@@ -1,0 +1,22 @@
+Eleanor (Left): You did _alchemy_? By yourself?
+Harriet (Right): We'll talk about that later. We need to get you home and figure out what to do. Steal any reagents you can carry.
+Eleanor (Left): Right!
+Harriet (Right): In the meantime. I'm breaking open his stupid locked drawer.
+Harriet (Right): HYAH!
+Eleanor (Left): ...Oswald really cleaned this place out. Rats.
+Harriet (Right): He's probably bringing all of his stuff to the Symposium. GRR-HAAAAGH!
+Eleanor (Left): I can get some water from the student lounge and hope it transmutes, I guess...
+Harriet (Right): Wow, this thing is built like a safe.
+Eleanor (Left): Not for long, it won't be.
+
+-----------
+
+Eleanor (Left): Drink that and try it now.
+Harriet (Right): Bottoms up!
+Harriet (Right): HYAH--aha! There we go!
+Harriet (Right): ...oh, this guy.
+Harriet (Right): This is definitely Henley's handwriting...
+Eleanor (Left): This looks like a _lot_ of different professors' handwritings. With the names on the papers scratched out...
+Eleanor (Left): Oh. _Oh_...
+Eleanor (Left): Oswald is a plagiarist.
+

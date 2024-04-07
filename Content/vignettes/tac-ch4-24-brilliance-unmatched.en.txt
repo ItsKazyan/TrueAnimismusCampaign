@@ -1,0 +1,20 @@
+Oswald (Left): Alchemist Tolomeo, what a pleasant evening to run into you.
+Nadine (Right): Oh, this should entertain.
+Oswald (Left): I'm happy to report that my excellence shines ever brighter. I've created a third glyph and solved Decardination.
+Nadine (Right): Mh. What an accomplishment.
+Oswald (Left): I'm certain to steal the show at the Symposium. You should be honored to consider someone like me as your peer.
+Nadine (Right): Truly, you are without equal.
+Oswald (Left): Do you not believe me?
+Nadine (Right): No, no, continue talking.
+Oswald (Left): Observe my ingenuity in action.
+Nadine (Right): Make this expedient. I am on my way home.
+
+-----------
+
+Oswald (Left): Bah!
+Oswald (Left): But you understand the principle. Decardination is a prediction that will never come to pass, all by my hand.
+Nadine (Right): I see a few issues. There may be one last conservation law to break over the knee of your genius before you've truly solved this.
+Nadine (Right): Maybe your gifted assistant can do the honors?
+Oswald (Left): I have everything I need.
+Oswald (Left): All I must do is keep working.
+Nadine (Right): Truly.

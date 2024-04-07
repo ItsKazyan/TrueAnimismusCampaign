@@ -1,0 +1,27 @@
+Portraits: Harriet (Left), Oswald (Right)
+
+Oswald (Right): So this is where you live. Touching.
+Harriet (Left): Hi, Oswald.
+Oswald (Right): That's Alchemist Terrell, Al. D., to you. I need a small favor.
+Harriet (Left): I don't feel like giving it.
+Oswald (Right): Oh, perhaps you should know why 'Ellie' didn't arrive home safely today. It's such a shame how ill she's falling.
+Harriet (Left): ...
+Harriet (Left): I'll kill you.
+Oswald (Right): Quick on the uptake, I see. But no, you won't, not while I'm the only--
+Harriet (Left): The University will never stop finding pieces of you.
+Harriet (Left): They'll pick up your cold, dead heart and juice it for a fourth grade of mors.
+Harriet (Left): And I'll be in prison, with a smile on my face as I use your Al. D. as a handkerchief.
+Action: Change, Oswald (Left), Oswald (Right)
+Oswald (Right): I--
+Action: Change, Oswald (Right), Oswald (Left)
+Oswald (Right): Er.
+Action: Change, Oswald (Left), Oswald (Right)
+Oswald (Right): Um.
+Action: Change, Oswald (Right), Oswald (Left)
+Oswald (Right): Listen.
+Harriet (Left): I wonder if you can make new brain matter after I paint the floor with yours.
+Oswald (Right): Eleanor will die without treatment. It would be tragic, and I'm the only one who can create the antidote. You need me alive. Which means you need to do what I say.
+Oswald (Right): Sign these forms here. They're for abdication of Eleanor's place in the Symposium--to me, of course. Normally, she'd have to sign herself, but this is a 'next of kin' sort of situation.
+Harriet (Left): ...Fine. I'll sign your stupid papers.
+Harriet (Left): But as soon as Ellie is safe, _nothing will save you from me_.
+Oswald (Right): Something to plan for, I suppose.

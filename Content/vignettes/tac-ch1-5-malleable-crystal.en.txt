@@ -1,0 +1,20 @@
+Harriet (Left): Hi.
+Oswald (Right): Why is she here again?
+Eleanor (Left): Sorry, I'm moving my transmutation engine here and I need someone strong. There's a lot of lead.
+Oswald (Right): Well, set it up and leave. 
+Harriet (Left): No.
+Oswald (Right): Are you an Alchemist? Do you have an Al. D.? Do you know to transmute a crystal, any crystal?
+Harriet (Left): Also no.
+Oswald (Right): Then get _out_.
+Oswald (Right): Eleanor, put your full focus on this transmutation, it's important.
+Eleanor (Left): Fine. ...maybe it's time to open Nadine's package...
+
+-----------
+
+Eleanor (Left): Done.
+Oswald (Right): So quickly?
+Harriet (Left): Huh, your research notes are really disorganized.
+Oswald (Right): Leave those alone.
+Harriet (Left): What's in this drawer?
+Oswald (Right): DO. NOT. TOUCH THOSE. Those most of all.
+Eleanor (Left): ...come on, Harriet, let's go get dinner.

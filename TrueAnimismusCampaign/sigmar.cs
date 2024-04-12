@@ -97,7 +97,7 @@ public class SigmarGardenPatcher
 			}
 		};
 
-		On.SolitaireScreen.method_47 += OnSolitaireScreen_Method_47;
+		//On.SolitaireScreen.method_47 += OnSolitaireScreen_Method_47;
 		hook_SolitaireScreen_method_1889 = new Hook(MainClass.PrivateMethod<SolitaireScreen> ("method_1889"), OnSolitaireScreen_Method_1889);
 		hook_SolitaireScreen_method_1890 = new Hook(MainClass.PrivateMethod<SolitaireScreen>("method_1890"), OnSolitaireScreen_Method_1890);
 		hook_SolitaireScreen_method_1893 = new Hook(MainClass.PrivateMethod<SolitaireScreen>("method_1893"), OnSolitaireScreen_Method_1893);
@@ -112,16 +112,16 @@ public class SigmarGardenPatcher
 
 	private delegate void orig_SolitaireScreen_method_1905(SolitaireScreen self, SolitaireState.struct_124 param_5446);
 	
-	private static void OnSolitaireScreen_Method_47(On.SolitaireScreen.orig_method_47 orig, SolitaireScreen screen_self, bool param_5434)
-	{	
-		if (currentCampaignIsTAC(screen_self))
-		{	
-			//class_238.field_1992.field_969 = class_235.method_617("music/clock-ticking");
-			orig(screen_self, param_5434);
-			//class_238.field_1992.field_969 = class_235.method_617("music/Solitaire");
-		}
-		else {orig(screen_self, param_5434);}
-	}
+	// private static void OnSolitaireScreen_Method_47(On.SolitaireScreen.orig_method_47 orig, SolitaireScreen screen_self, bool param_5434)
+	// {	
+	// 	if (currentCampaignIsTAC(screen_self))
+	// 	{	
+	// 		//class_238.field_1992.field_969 = class_235.method_617("music/clock-ticking");
+	// 		orig(screen_self, param_5434);
+	// 		//class_238.field_1992.field_969 = class_235.method_617("music/Solitaire");
+	// 	}
+	// 	else {orig(screen_self, param_5434);}
+	// }
 
 	private static SolitaireState OnSolitaireScreen_Method_1889(orig_SolitaireScreen_method_1889 orig, SolitaireScreen screen_self)
 	{

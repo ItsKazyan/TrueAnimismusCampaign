@@ -192,7 +192,7 @@ Cutscenes:
   Music: Story1
 - ID: tac-cutscene-ch1-decardination
   Location: N. Tolomeo's Crown
-  Background: backgrounds/nadines-office
+  Background: backgrounds/nadines-crown-2
   Music: Story1
 - ID: tac-cutscene-ch2-taking-credit
   Location: Hallway Near Oswald's Office
@@ -200,7 +200,7 @@ Cutscenes:
   Music: Story1
 - ID: tac-cutscene-ch2-i-had-a-hunch
   Location: Nadine's Crown
-  Background: backgrounds/nadines-office
+  Background: backgrounds/nadines-crown-2
   Music: Story1
 - ID: tac-cutscene-ch3-the-fighting-ring
   Location: Underground Fighting Ring
@@ -208,7 +208,7 @@ Cutscenes:
   Music: Story1
 - ID: tac-cutscene-ch3-banned
   Location: Nadine's Crown
-  Background: backgrounds/nadines-office
+  Background: backgrounds/nadines-crown-2
   Music: Story1
 - ID: tac-cutscene-ch4-blackmail
   Location: The Herrimans' Cabin

@@ -43,9 +43,10 @@ Outputs:
     Bonds: []
     Name: True Mors
   Amount: -1
-PermissionFlags: LifeAndDeath, Disposal, CoreTools
+PermissionFlags: LifeAndDeath, CoreTools
 CustomPermissions:
 - TrueAnimismus:disproportion
+- TrueAnimismus:dispojack
 PartQuotas: {}
 Highlights: []
 ProductionInfo: 

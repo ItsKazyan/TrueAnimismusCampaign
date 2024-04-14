@@ -124,6 +124,7 @@ public static class StoryPanelPatcher
 		{
 			// then we're doing the options code while in the TAC campaign
 			// hijack the inputs so we draw it our way
+			// Thanks, RMC
 			bool flag = GameLogic.field_2434.field_2451.method_573(optionsUnlock);
 			index = flag ? 1 : 0;
 			tuple = new Tuple<int, LocString>[2]
@@ -136,6 +137,7 @@ public static class StoryPanelPatcher
 		{
 			// then we're doing the solitaire code while in the TAC campaign
 			// hijack the inputs so we draw it our way
+			// Thanks, RMC
 			tuple = SigmarStoryUnlocks;
 		}
 

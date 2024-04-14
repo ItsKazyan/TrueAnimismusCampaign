@@ -76,10 +76,9 @@ public class SigmarGardenPatcher
 	{
 		getSigmarWins_TAC();
 		On.CampaignItem.method_825 += DetermineIfCampaignItemIsCompleted;
-		On.SolitaireGameState.class_301.method_1888 += DetermineIfMatchIsValid;
+		//On.SolitaireGameState.class_301.method_1888 += DetermineIfMatchIsValid;
 		On.SolitaireGameState.method_1885 += DetermineIfSolitaireGameWasWon;
 		On.SolitaireScreen.method_50 += SolitaireScreen_Method_50;
-		On.class_16.method_50 += SolitaireRulesScreen_Method_50;
 		On.class_198.method_537 += getRandomizedSolitaireBoard;
 
 		nullAtom = new AtomType()
@@ -112,17 +111,6 @@ public class SigmarGardenPatcher
 
 	private delegate void orig_SolitaireScreen_method_1905(SolitaireScreen self, SolitaireState.struct_124 param_5446);
 	
-	// private static void OnSolitaireScreen_Method_47(On.SolitaireScreen.orig_method_47 orig, SolitaireScreen screen_self, bool param_5434)
-	// {	
-	// 	if (currentCampaignIsTAC(screen_self))
-	// 	{	
-	// 		//class_238.field_1992.field_969 = class_235.method_617("music/clock-ticking");
-	// 		orig(screen_self, param_5434);
-	// 		//class_238.field_1992.field_969 = class_235.method_617("music/Solitaire");
-	// 	}
-	// 	else {orig(screen_self, param_5434);}
-	// }
-
 	private static SolitaireState OnSolitaireScreen_Method_1889(orig_SolitaireScreen_method_1889 orig, SolitaireScreen screen_self)
 	{
 		if (currentCampaignIsTAC(screen_self)) return solitaireState_TAC;
@@ -158,18 +146,6 @@ public class SigmarGardenPatcher
 		return orig(screen_self);
 	}
 
-	private static void OnSolitaireScreen_Method_1905(orig_SolitaireScreen_method_1905 orig, SolitaireScreen screen_self, SolitaireState.struct_124 param_5446) {
-	
-	if (currentCampaignIsTAC(screen_self))
-		{ // No victory fanfare only if we're doing TAC sigmar's garden. There's nothing to celebrate about decardination.
-		Sound originalSound = class_238.field_1991.field_1865;
-		class_238.field_1991.field_1865 = MainClass.emptySound;
-		orig(screen_self, param_5446);
-		class_238.field_1991.field_1865 = originalSound;
-		}
-	else{orig(screen_self, param_5446);}
-	}
-
 	public static void Unload()
 	{
 		hook_SolitaireScreen_method_1889.Dispose();
@@ -186,16 +162,16 @@ public class SigmarGardenPatcher
 		return ret;
 	}
 
-	public static bool DetermineIfMatchIsValid(On.SolitaireGameState.class_301.orig_method_1888 orig, SolitaireGameState.class_301 class301_self, AtomType param_5430, AtomType param_5431)
-	{
-		// if (CampaignLoader.currentCampaignIsTAC() &&
-		// 		(param_5430 == TrueAnimismus.ModdedAtoms.RedVitae && param_5431 == TrueAnimismus.ModdedAtoms.GreyMors) ||
-		// 		(param_5430 == TrueAnimismus.ModdedAtoms.TrueVitae && param_5431 == TrueAnimismus.ModdedAtoms.TrueMors) ||
-		// 		(param_5430 == TrueAnimismus.ModdedAtoms.GreyMors && param_5431 == TrueAnimismus.ModdedAtoms.RedVitae) ||
-		// 		(param_5430 == TrueAnimismus.ModdedAtoms.TrueMors && param_5431 == TrueAnimismus.ModdedAtoms.TrueVitae)
-		// ) return true;
-		return orig(class301_self, param_5430, param_5431);
-	}
+	// public static bool DetermineIfMatchIsValid(On.SolitaireGameState.class_301.orig_method_1888 orig, SolitaireGameState.class_301 class301_self, AtomType param_5430, AtomType param_5431)
+	// {
+	// 	if (CampaignLoader.currentCampaignIsTAC() &&
+	// 			(param_5430 == TrueAnimismus.ModdedAtoms.RedVitae && param_5431 == TrueAnimismus.ModdedAtoms.GreyMors) ||
+	// 			(param_5430 == TrueAnimismus.ModdedAtoms.TrueVitae && param_5431 == TrueAnimismus.ModdedAtoms.TrueMors) ||
+	// 			(param_5430 == TrueAnimismus.ModdedAtoms.GreyMors && param_5431 == TrueAnimismus.ModdedAtoms.RedVitae) ||
+	// 			(param_5430 == TrueAnimismus.ModdedAtoms.TrueMors && param_5431 == TrueAnimismus.ModdedAtoms.TrueVitae)
+	// 	) return true;
+	// 	return orig(class301_self, param_5430, param_5431);
+	// }
 
 	public static bool DetermineIfSolitaireGameWasWon(On.SolitaireGameState.orig_method_1885 orig, SolitaireGameState state_self)
 	{
@@ -226,14 +202,14 @@ public class SigmarGardenPatcher
 
 		if (!currentCampaignIsTAC(screen_self)) return;
 
-		//draw atoms remaining for each metal
+		//Some 'draw metals remaining' code from RMC solitaire; I don't know how much of this is safe to yank out, so I just delabled the actual draw-numbers-pls line.
 		SolitaireScreen.class_412 class412 = new SolitaireScreen.class_412();
 		class412.field_3883 = screen_self;
 		class412.field_3886 = timeDelta;
 		if (GameLogic.field_2434.method_938() is class_16) return;
 
 		Vector2 vector2_1 = new Vector2(1516f, 922f);
-		class412.field_3884 = (class_115.field_1433 / 2 - vector2_1 / 2 + new Vector2(-2f, -11f)).Rounded();
+		//class412.field_3884 = (class_115.field_1433 / 2 - vector2_1 / 2 + new Vector2(-2f, -11f)).Rounded();
 
 
 		int Method_1901(AtomType atomType, Vector2 pos)
@@ -261,47 +237,6 @@ public class SigmarGardenPatcher
 			class_135.method_290(total, pos, crimson_10_5, color, (enum_0)1, 1f, 0.6f, float.MaxValue, float.MaxValue, 0, new Color(), null, int.MaxValue, false, true);
 			return count;
 		}
-
-		int metalsLeft = 0;
-
-		Vector2 vector2_2 = class412.field_3884 + new Vector2(980f, sbyte.MaxValue);
-		vector2_2.X += 30f;
-		//draw quicksilver
-		Vector2 quicksilverPos = vector2_2;
-		vector2_2.X += 25f;
-		//draw pip
-		vector2_2.X += 29f;
-		metalsLeft += Method_1901(class_175.field_1681, vector2_2); // lead
-		vector2_2.X += 40f;
-		metalsLeft += Method_1901(class_175.field_1683, vector2_2); // tin
-		vector2_2.X += 40f;
-		metalsLeft += Method_1901(class_175.field_1684, vector2_2); // iron
-		vector2_2.X += 40f;
-		metalsLeft += Method_1901(class_175.field_1682, vector2_2); // copper
-		vector2_2.X += 40f;
-		metalsLeft += Method_1901(class_175.field_1685, vector2_2); // silver
-
-		// if (MainClass.DisplayMetalsRemaining)
-		// {
-		// 	// draw metalsLeft above quicksilver
-		// 	Color color = metalsLeft == 0 ? class_181.field_1718.WithAlpha(0.2f) : class_181.field_1718;
-		// 	string total = "(" + metalsLeft.ToString() + ")";
-		// 	Font crimson_9_75 = class_238.field_1990.field_2140;
-		// 	quicksilverPos += new Vector2(-19f, 15f);
-		// 	class_135.method_290(total, quicksilverPos, crimson_9_75, color, (enum_0)1, 1f, 0.6f, float.MaxValue, float.MaxValue, 0, new Color(), null, int.MaxValue, false, true);
-		// }
-	}
-
-	public static void SolitaireRulesScreen_Method_50(On.class_16.orig_method_50 orig, class_16 screen_self, float timeDelta)
-	{
-		// if (CampaignLoader.currentCampaignIsTAC())
-		// {
-		// 	var screen_dyn = new DynamicData(screen_self);
-		// 	string rule = "Viate and Mors match with their opposite of equal grade.";
-		// 	screen_dyn.Set("field_69", class_134.method_253(rule, string.Empty));
-		// }
-
-		orig(screen_self, timeDelta);
 	}
 
 	public static SolitaireGameState getRandomizedSolitaireBoard(On.class_198.orig_method_537 orig, bool quintessenceSigmar)
@@ -453,17 +388,7 @@ public class SigmarGardenPatcher
 			}
 		}
 
-		// put the remaining cardinal matches in the saltlikeBag
-		// for (int i = 1; i < 5; i++)
-		// {
-		// 	while (cardinals[i] > 0)
-		// 	{
-		// 		cardinals[i] -= 2;
-		// 		saltlikeBag.Add(Tuple.Create(getAtomType(10 + i), getAtomType(10 + i)));
-		// 	}
-		// }
-
-		// decide how many of each metal we'll have on the board
+		//One of each metal on the board
 		int[] metals = new int[6] { 1, 1, 1, 1, 1, 1 };
 
 		// add the non-Gold metals into the metalBag, from Silver to Lead
@@ -502,8 +427,16 @@ public class SigmarGardenPatcher
 				placedGold = true;
 				continue;
 			}
-			// otherwise, a regular match
+			
+			if (saltlikeBag.Count + metalBag.Count == 0){break;}
+			//Sometimes the code tries to remove marbles when the bags are both empty.
+			//I don't know why.
+			//If it tries to do this, stop generating the board.
+			//This leaves it asymmetrical, which is a problem to be fixed in the future if future me still cares.
+			
+			// non-Gold matches happen here
 			int pick = RandomInt(saltlikeBag.Count + metalBag.Count);
+		
 			if (!placedGold)
 			{
 				pick = RandomInt(saltlikeBag.Count);

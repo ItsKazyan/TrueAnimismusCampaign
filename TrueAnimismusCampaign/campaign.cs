@@ -298,7 +298,6 @@ public static class CampaignLoader
 		// modify the campaign using the data //
 		////////////////////////////////////////
 		Logger.Log("[TrueAnimismusCampaign] Modifying campaign levels.");
-		Logger.Log(campaign_self.field_2309);
 		CampaignChapter[] campaignChapters = campaign_self.field_2309;
 		foreach (var campaignChapter in campaignChapters)
 		{

@@ -1,28 +1,4 @@
 ##################################################
-Credits:
-  PositionOffset: -300.0, -710.0 ## "0.0, 0.0" is the center of the screen, "-946.0, -710.0" is the vanilla position
-  Texts:
-  - - "*True Animismus*"
-##########
-  - - "By Alchemist Kazyan"
-##########
-  - - "Special Thanks"
- ########## 
-  - - "RP0, mr\\_puzzel, zorflax"
-    - "The Reductive Metallurgy team"
-    - "(If you liked this mod, play theirs)"
-##########
-    - "mr_puzzel, again, for answering all of my coding questions"
-    - "Zachtronics, for inventing alchemy"
-    - "Luna, for the Quintessential mod loader and more coding help"
-    - "The Unofficial Zachtronics Discord"
-##########
-  - - "Creative Commons Attributions"
-    - "Hanay, for the protograph used for Nadine's Office"
-##########
-  - - "And thanks to you, for playing!"
-##########
-##################################################
 SigmarStoryUnlocks:
 - 1
 ##################################################
@@ -118,12 +94,12 @@ Characters:
   Name: "Conspicuously Empty Space"
   SmallPortrait: portraits/conspicuously_empty_space_small
   LargePortrait: portraits/conspicuously_empty_space_large
-  Color: 15843890
+  Color: 13939535
 - ID: "Conspicuously Empty Space (Eleanor)"
   Name: "Eleanor Herriman"
   SmallPortrait: portraits/conspicuously_empty_space_small
   LargePortrait: portraits/conspicuously_empty_space_large
-  Color: 15843890
+  Color: 13939535
 - ID: "Eleanor's Transmutation Engine"
   Name: "Eleanor's Transmutation Engine"
   SmallPortrait: portraits/transmutation-engine
@@ -192,7 +168,7 @@ Cutscenes:
   Music: Story1
 - ID: tac-cutscene-ch1-decardination
   Location: N. Tolomeo's Crown
-  Background: backgrounds/nadines-crown-2
+  Background: backgrounds/nadines-crown-3
   Music: Story1
 - ID: tac-cutscene-ch2-taking-credit
   Location: Hallway Near Oswald's Office
@@ -200,7 +176,7 @@ Cutscenes:
   Music: Story1
 - ID: tac-cutscene-ch2-i-had-a-hunch
   Location: Nadine's Crown
-  Background: backgrounds/nadines-crown-2
+  Background: backgrounds/nadines-crown-3
   Music: Story1
 - ID: tac-cutscene-ch3-the-fighting-ring
   Location: Underground Fighting Ring
@@ -208,7 +184,7 @@ Cutscenes:
   Music: Story1
 - ID: tac-cutscene-ch3-banned
   Location: Nadine's Crown
-  Background: backgrounds/nadines-crown-2
+  Background: backgrounds/nadines-crown-3
   Music: Story1
 - ID: tac-cutscene-ch4-blackmail
   Location: The Herrimans' Cabin
@@ -341,7 +317,7 @@ Puzzles:
   Tip:
      ID: TACT002
      Title: "Chirality"
-     Description: "The Glyph of Disproportion is chiral--it cannot be rotated onto its mirror image. While dragging a lone glyph of disproportion, press *C* to mirror it."
+     Description: "The Glyph of Disproportion is chiral—it cannot be rotated onto its mirror image. While dragging a lone glyph of disproportion, press *C* to mirror it."
      Texture: tips/TACchirality
 - ID: tac-ch2-10-eyedrops-of-vision
   Music: Solving5
@@ -464,7 +440,7 @@ Puzzles:
   Tip:
     ID: TACT006
     Title: "Herriman's Wheel"
-    Description: "Herriman's Wheel can receive from the Glyph of Infusion, even if its atom is in opposition, or donate through the Glyph of Infusion with normal restrictions."
+    Description: "*Herriman's Wheel* can receive from the Glyph of Infusion, even if its atom is in opposition, or donate through the Glyph of Infusion with normal restrictions."
     Solution: TACherriman
 - ID: tac-ch5-28-focusing-incense
   Music: Solving2

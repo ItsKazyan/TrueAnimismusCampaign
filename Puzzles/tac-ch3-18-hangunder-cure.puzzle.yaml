@@ -88,9 +88,10 @@ Outputs:
     Name: Tonic of Sobriety
   AmountOverride: 0
 OutputMultiplier: 1
-PermissionFlags: Duplication, LifeAndDeath, Disposal, CoreTools
+PermissionFlags: Duplication, LifeAndDeath, CoreTools
 CustomPermissions:
 - TrueAnimismus:lefthand
+- TrueAnimismus:dispojack
 Highlights: []
 ProductionInfo: 
 ProductionInfo: 

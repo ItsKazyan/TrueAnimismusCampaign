@@ -3,7 +3,7 @@ Title: "Decardination"
 Chapters:
 - Title: Prologue
   Subtitle: A Glyph Frowned Upon
-  Place: "Imperial University, 8 years prior"
+  Place: "Imperial University"
   Background: backgrounds/background_ch0
   Entries:
   - ID: tac-document-intro
@@ -19,7 +19,7 @@ Chapters:
     Puzzle: empty
     Requires: ""
 - Title: Chapter I
-  Subtitle: The Understudy
+  Subtitle: Eight Years Later
   Place: "Research Wing: The Hall of Fire"
   Background: backgrounds/background_ch1
   Entries:

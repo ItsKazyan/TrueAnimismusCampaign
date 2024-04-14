@@ -52,7 +52,7 @@ public class AssignProxies
 
 	public static void My_Method_1835(Sim sim_self) 
 	{//So I should probably be doing this in method_1829()
-	// it's the one that makes the sim stop if you put a retract instruction on a non-piston and stuff
+	// it's the one that makes the sim stop if you put a retract instruction on a non-piston and stuff, so I think it's less computationally intensive
 	// But whatever
 		var sim_dyn = new DynamicData(sim_self);
 		var solutionEditorBase = sim_self.field_3818;
@@ -82,7 +82,9 @@ public class AssignProxies
 		{
 			if (!solutionEditorBase.method_507().method_481(disproglyph).field_2743){continue;}
 			
-			//If the code gets here that means there's a Glyph of Disproportion firing
+			//Understood all that up there?
+			//Don't worry
+			//TL;DR If the code gets here that means there's a Glyph of Disproportion firing
 			//PULL THE LEVER, KRONK
 
 			setTrueAnProxiesAssigned();

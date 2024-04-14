@@ -26,6 +26,10 @@ using Texture = class_256;
 //using Tip = class_215;
 //using Font = class_1;
 
+
+//Imma be real with you fam, this is a 1:1 copy from RMC; I don't remember if I touched this at all.
+//It makes production puzzles work. Good enough for me.
+
 public static class ProductionManager
 {
 	static Dictionary<string, List<Tuple<string, Vector2>>> productionOverlays = new();

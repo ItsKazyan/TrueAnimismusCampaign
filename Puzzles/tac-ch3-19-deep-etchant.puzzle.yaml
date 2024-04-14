@@ -72,10 +72,11 @@ Outputs:
       - standard
     Name: Horrible Acid
   Amount: -1
-PermissionFlags: Duplication, Purification, LifeAndDeath, Disposal, CoreTools, BaronWheel
+PermissionFlags: Duplication, Purification, LifeAndDeath, CoreTools, BaronWheel
 CustomPermissions:
 - TrueAnimismus:disproportion
 - TrueAnimismus:lefthand
+- TrueAnimismus:dispojack
 PartQuotas: {}
 Highlights: []
 ProductionInfo:

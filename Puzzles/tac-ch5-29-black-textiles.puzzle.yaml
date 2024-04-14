@@ -161,11 +161,12 @@ Outputs:
       - standard
     Name: Silencing Dye
   Amount: -1
-PermissionFlags: Purification, LifeAndDeath, Disposal, CoreTools
+PermissionFlags: Purification, LifeAndDeath, CoreTools
 CustomPermissions:
 - TrueAnimismus:disproportion
 - TrueAnimismus:infusion
 - TrueAnimismus:herriman
+- TrueAnimismus:dispojack
 PartQuotas: {}
 Highlights: []
 ProductionInfo: 

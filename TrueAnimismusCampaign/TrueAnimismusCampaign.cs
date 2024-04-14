@@ -28,34 +28,18 @@ using Texture = class_256;
 //using Tip = class_215;
 //using Font = class_1;
 
-// SOLITAIRE_ICON_TEMP - these lines will be removed once custom campaign icons are actually implemented in quintessential
-
 public class MainClass : QuintessentialMod
 {
 	
 	public static MethodInfo PrivateMethod<T>(string method) => typeof(T).GetMethod(method, BindingFlags.NonPublic | BindingFlags.Instance | BindingFlags.Static);
 	private static IDetour hook_Sim_method_1835;
-
-	static Texture iconSolitaire, iconSolitaireSmall;
-	public static List<class_259> customSolitaires = new(); // SOLITAIRE_ICON_DEBUG
-
-	// settings
-	//public static bool DisplayMetalsRemaining = true;
+	public static List<class_259> customSolitaires = new(); // LEft over from RMC debugging or something. Not touching this
 	public override Type SettingsType => typeof(MySettings);
 	public class MySettings
-	{
-		//[SettingsLabel("Display 'metals remaining' in the new Sigmar's Garden.")]
-		//public bool DisplayMetalsRemaining = true;
-	}
-	public override void ApplySettings()
-	{
-		base.ApplySettings();
+	{}
+    public override void ApplySettings() => base.ApplySettings();
 
-		//var SET = (MySettings)Settings;
-		//DisplayMetalsRemaining = SET.DisplayMetalsRemaining;
-	}
-
-	public static bool findModMetaFilepath(string name, out string filepath)
+    public static bool findModMetaFilepath(string name, out string filepath)
 	{
 		filepath = "<missing mod directory>";
 		foreach (ModMeta mod in QuintessentialLoader.Mods)
@@ -71,14 +55,9 @@ public class MainClass : QuintessentialMod
 
 	public override void LoadPuzzleContent()
 	{
-		//PolymerInput.LoadContent();
 		StoryPanelPatcher.LoadContent();
 		AssignProxies.LoadContent();
 		ProductionManager.initializeProductionTextureBank();
-		
-		//string path = "textures/puzzle_select/"; // SOLITAIRE_ICON_TEMP
-		//iconSolitaire = class_235.method_615(path + "icon_rmc_solitaire"); // SOLITAIRE_ICON_TEMP
-		//iconSolitaireSmall = class_235.method_615(path + "icon_rmc_solitaire_small"); // SOLITAIRE_ICON_TEMP
 
 		//------------------------- HOOKING -------------------------//
 		hook_Sim_method_1835 = new Hook(PrivateMethod<Sim>("method_1835"), OnSimMethod1835);
@@ -127,7 +106,7 @@ public class MainClass : QuintessentialMod
 	public static void LoadAllCustomSounds()
 	{
 		foreach (var dir in QuintessentialLoader.ModContentDirectories)
-		{
+		{	//Code doesn't get used for anything anymore
 			string musicPath = Path.Combine(dir, "Content/music/clock-ticking.ogg");
 			Logger.Log("[TrueAnimismusCampaign] Music path: " + musicPath);
 			if (File.Exists(musicPath))
@@ -168,15 +147,6 @@ public class MainClass : QuintessentialMod
 		On.class_201.method_540 += Method_540;
 	}
 
-	// public static Texture ChooseCustomIconLarge(On.CampaignItem.orig_method_826 orig, CampaignItem item_self) // SOLITAIRE_ICON_TEMP
-	// {
-	// 	return item_self.field_2324 == CampaignLoader.typeSolitaire && customSolitaires.Contains(item_self.field_2326) ? iconSolitaire : orig(item_self);
-	// }
-	// public static Texture ChooseCustomIconSmall(On.CampaignItem.orig_method_827 orig, CampaignItem item_self) // SOLITAIRE_ICON_TEMP
-	// {
-	// 	return item_self.field_2324 == CampaignLoader.typeSolitaire && customSolitaires.Contains(item_self.field_2326) ? iconSolitaireSmall : orig(item_self);
-	// }
-
     private void hotswapPartDescriptions(On.SolutionEditorScreen.orig_method_2107 orig, SolutionEditorScreen SES_self, string param_5715, string param_5716, Maybe<SDL.enum_160> param_5717)
     {
         if (CampaignLoader.currentCampaignIsTAC() && 
@@ -190,22 +160,4 @@ public class MainClass : QuintessentialMod
 			}
 		orig(SES_self, param_5715, param_5716, param_5717);
     }
-
-	public void SES_Method_50(On.SolutionEditorScreen.orig_method_50 orig, SolutionEditorScreen SES_self, float param_5703)
-	{
-		Logger.Log(SES_self.method_502().method_1934().field_2766);
-		//"Spinning Paint Palette" 
-		string original_name = class_191.field_1771.field_1529; // Van Berlo's Wheel
-		string original_desc = class_191.field_1771.field_1530; // Van Berlo's Wheel's descirption
-		if (SES_self.method_502().method_1934().field_2766 == "tac-ch1-4-chelating-steam")
-		{
-			new DynamicData(class_191.field_1771).Set("field_1529","Spinning Paint Palette");
-			new DynamicData(class_191.field_1771).Set("field_1530","By using the spinning paint palette with the glyph of duplication, neutral salt can be turned into any of the four cardinal elements.");
-			orig(SES_self, param_5703);
-			// put the original names back before anything else can see what we did
-			new DynamicData(class_191.field_1771).Set("field_1529",original_name);
-			new DynamicData(class_191.field_1771).Set("field_1530",original_desc);
-		}
-		orig(SES_self, param_5703);
-	}
 }

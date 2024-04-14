@@ -17,8 +17,8 @@ Eleanor (Left): You...
 Oswald (Left): Do you know how long you have to steep tea before it can cover the taste of poison?
 Oswald (Left): Your heart rate should continue plummeting. It won't be long now. Soon, you'll feel the icy--
 Action: Change, Eleanor (Left), Conspicuously Empty Space (Eleanor)
-Oswald (Right): ...
-Oswald (Right): Oh, she's unconscious already.
+Oswald (Left): ...
+Oswald (Left): Oh, she's unconscious already.
 Action: Change, Oswald (Left), Oswald (Right)
 Oswald (Right): I had an entire monologue prepared. Oh well.
 Oswald (Right): No one visits my office after hours. I'll lock her inside.

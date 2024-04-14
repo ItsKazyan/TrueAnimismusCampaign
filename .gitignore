@@ -1,5 +1,7 @@
 TrueAnimismusCampaign/bin/*
 TrueAnimismusCampaign/obj/*
 TrueAnimismusCampaign/.vs/*
+TrueAnimismusCampaign/journal.cs
+TrueAnimismusCampaign/credits.cs
 quintessential.yaml
 TrueAnimismusCampaign.dll

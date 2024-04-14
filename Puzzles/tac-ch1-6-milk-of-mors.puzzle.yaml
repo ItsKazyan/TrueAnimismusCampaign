@@ -99,8 +99,9 @@ Outputs:
       - standard
     Name: Milk of Mors
   Amount: -1
-PermissionFlags: LifeAndDeath, Disposal, CoreTools
-CustomPermissions: []
+PermissionFlags: LifeAndDeath, CoreTools
+CustomPermissions:
+- TrueAnimismus:dispojack
 PartQuotas: {}
 Highlights: []
 ProductionInfo: 

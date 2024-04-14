@@ -1,0 +1,13 @@
+Name: TrueAnimismusCampaign
+Version: 1.0.0
+Icon: mod_icon
+Title: Decardination Campaign
+Desc: A campaign for the True Animismus mod.
+DLL: "TrueAnimismusCampaign.dll"
+Dependencies:
+- Name: Quintessential
+  Version: 0.5.0
+- Name: TrueAnimismus
+  Version: 1.0.0
+#OptionalDependencies
+#Mappings:
